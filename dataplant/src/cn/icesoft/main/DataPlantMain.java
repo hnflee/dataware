@@ -6,6 +6,8 @@ import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Menu;
+import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.Shell;
 
 public class DataPlantMain {
@@ -52,10 +54,14 @@ public class DataPlantMain {
 		shell.setImage(display.getSystemImage(SWT.ICON_INFORMATION));
 		shell.setLocation(0, 0);
 		shell.setSize(area.width, area.height);
-		shell.setText("智能数据平台");
+		shell.setText("鏅鸿兘鏁版嵁骞冲彴");
 		shell.setLayout(new FillLayout());
 		shell.setMaximized(true);
 
+		Menu main = setMenu();
+		
+		shell.setMenuBar(main);
+		
 		CBanner banner = new CBanner(shell, SWT.BORDER);
 		banner.setLayout(new FillLayout());
 
@@ -67,6 +73,22 @@ public class DataPlantMain {
 		banner.setRight(rightcomp);
 		banner.setBottom(option);
 
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	private Menu setMenu() {
+		Menu main=new Menu(shell,SWT.BAR);
+		MenuItem file=new MenuItem(main,SWT.CASCADE);
+		file.setText("鏂囦欢(&F)");
+		
+		MenuItem option=new MenuItem(main,SWT.CASCADE);
+		option.setText("璁剧疆(&O)");
+		
+		
+		return main;
 	}
 
 }

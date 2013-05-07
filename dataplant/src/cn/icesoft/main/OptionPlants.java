@@ -30,19 +30,19 @@ public class OptionPlants extends Composite {
 		tabFolder.setLayout(new FillLayout());
 		
 		TabItem item=new TabItem(tabFolder,SWT.NONE);
-		item.setText("Դ");
+		item.setText("数据源");
 		
 		ScrolledComposite scrolledComposite = new ScrolledComposite(tabFolder, SWT.BORDER | SWT.H_SCROLL | SWT.V_SCROLL);
 		item.setControl(scrolledComposite);
 		scrolledComposite.setExpandHorizontal(true);
 		scrolledComposite.setExpandVertical(true);
-		scrolledComposite.setMinSize((int)(area.width*0.98), (int)(area.height*0.20));
+		scrolledComposite.setMinSize((int)(area.width*0.98), (int)(area.height*0.18));
 		
 		
 		
 		
 		TabItem item1=new TabItem(tabFolder,SWT.NONE);
-		item1.setText("���");
+		item1.setText("输出");
 
 		tabFolder.pack();
 		
