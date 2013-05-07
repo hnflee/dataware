@@ -6,9 +6,13 @@ import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Event;
+import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.Shell;
+
+import cn.icesoft.shell.InitOptionPreference;
 
 public class DataPlantMain {
 
@@ -59,9 +63,9 @@ public class DataPlantMain {
 		shell.setMaximized(true);
 
 		Menu main = setMenu();
-		
+
 		shell.setMenuBar(main);
-		
+
 		CBanner banner = new CBanner(shell, SWT.BORDER);
 		banner.setLayout(new FillLayout());
 
@@ -80,14 +84,30 @@ public class DataPlantMain {
 	 * @return
 	 */
 	private Menu setMenu() {
-		Menu main=new Menu(shell,SWT.BAR);
-		MenuItem file=new MenuItem(main,SWT.CASCADE);
+		Menu main = new Menu(shell, SWT.BAR);
+		MenuItem file = new MenuItem(main, SWT.CASCADE);
 		file.setText("文件(&F)");
-		
-		MenuItem option=new MenuItem(main,SWT.CASCADE);
+
+		MenuItem option = new MenuItem(main, SWT.CASCADE);
 		option.setText("设置(&O)");
-		
-		
+
+		Menu optionMenu = new Menu(shell, SWT.DROP_DOWN);
+		MenuItem optionItem = new MenuItem(optionMenu, SWT.PUSH);
+
+		optionItem.setText("首选项(&P)");
+		optionItem.addListener(SWT.Selection, new Listener() {
+
+			@Override
+			public void handleEvent(Event event) {
+				// TODO Auto-generated method stub
+				new InitOptionPreference().init();
+			}
+
+		}
+
+		);
+		option.setMenu(optionMenu);
+
 		return main;
 	}
 
