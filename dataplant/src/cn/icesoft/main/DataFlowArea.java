@@ -1,17 +1,26 @@
 package cn.icesoft.main;
 
 
+import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.Rectangle;
-import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.layout.FormAttachment;
+import org.eclipse.swt.layout.FormLayout;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Group;
+import org.eclipse.swt.widgets.Menu;
+import org.eclipse.ui.forms.widgets.FormToolkit;
 import org.eclipse.swt.custom.ScrolledComposite;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Button;
 
 
 public class DataFlowArea extends Composite {
 
 	Rectangle area = Display.getDefault().getClientArea();
+	private final FormToolkit formToolkit = new FormToolkit(Display.getDefault());
 	/**
 	 * Create the composite.
 	 * @param parent
@@ -20,13 +29,10 @@ public class DataFlowArea extends Composite {
 	public DataFlowArea(Composite parent, int style) {
 		
 		super(parent, style);
-		this.setLayout(new FillLayout());
+		setLayout(new GridLayout(1, false));
 		
-		ScrolledComposite scrolledComposite = new ScrolledComposite(this, SWT.BORDER | SWT.H_SCROLL | SWT.V_SCROLL);
-		scrolledComposite.setExpandHorizontal(true);
-		scrolledComposite.setExpandVertical(true);
-		scrolledComposite.setMinSize((int)(area.width*0.78), (int)(area.height*0.68));
-		
+
+	
 		
 		
 		
@@ -36,5 +42,4 @@ public class DataFlowArea extends Composite {
 	protected void checkSubclass() {
 		// Disable the check that prevents subclassing of SWT components
 	}
-
 }
