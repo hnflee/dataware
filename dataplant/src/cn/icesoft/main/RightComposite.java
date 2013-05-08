@@ -22,7 +22,7 @@ public class RightComposite extends Composite {
 		ScrolledComposite scrolledComposite = new ScrolledComposite(this, SWT.BORDER | SWT.H_SCROLL | SWT.V_SCROLL);
 		scrolledComposite.setExpandHorizontal(true);
 		scrolledComposite.setExpandVertical(true);
-		scrolledComposite.setMinSize((int)(area.width*0.18), (int)(area.height*0.68));
+		scrolledComposite.setMinSize((int)(area.width*0.28), (int)(area.height*0.68));
 
 	}
 
