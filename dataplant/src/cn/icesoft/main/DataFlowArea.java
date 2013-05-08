@@ -105,19 +105,6 @@ public class DataFlowArea extends Composite {
 				{
 					btnNewButton.setData("value",((String)event.data).split("\010")[0]);
 					
-					
-					for(int i=0;i<composite.getChildren().length;i++)
-					{
-						UUID tmp=(UUID)composite.getChildren()[i].getData("objectID");
-						
-						System.out.println("当前存在的UUID  "+tmp.toString());
-						
-						if(tmp.toString().equals(((String)event.data).split("\10")[1]))
-						{
-							composite.getChildren()[i].setVisible(false);
-						}
-					}
-					
 				}
 				
 				
@@ -143,6 +130,7 @@ public class DataFlowArea extends Composite {
 					public void dragFinished(DragSourceEvent dragevent) {
 						// TODO Auto-generated method stub
 						System.out.println("....... finished");
+						btnNewButton.dispose();
 					}});
 				
 				
