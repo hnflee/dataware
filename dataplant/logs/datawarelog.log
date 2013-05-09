@@ -1,0 +1,2904 @@
+130509 19:38:57 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 19:38:58 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 19:38:58 []DEBUG-child detail....c6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:38:58 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 19:38:58 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 19:38:59 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 19:38:59 []DEBUG-child detail....c6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:38:59 []DEBUG-child detail....0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:38:59 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 19:38:59 []DEBUG-mouse down selectObjectUUId:c6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:00 []DEBUG-mouse down selectObjectUUId:0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:00 []DEBUG-mouse down selectObjectUUId:0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:00 []DEBUG-mouseDoubleClick selectObjectUUId:0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:245)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:00 []DEBUG-begin draw line from 0b99f84b-387d-4ea6-a768-df0b4ccf45df   to   c6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:256)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-mouse down selectObjectUUId:c6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:0b99f84b-387d-4ea6-a768-df0b4ccf45dfc6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-get pre objectID .... for drogc6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-child detail....c6456541-0232-496e-b3ba-0c00149118ab
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-child detail....0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-child detail....9fda6bce-e8e8-446e-ad8f-07631abc84c4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:01 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-mouse down selectObjectUUId:9fda6bce-e8e8-446e-ad8f-07631abc84c4
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:0b99f84b-387d-4ea6-a768-df0b4ccf45df9fda6bce-e8e8-446e-ad8f-07631abc84c4
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-get pre objectID .... for drog9fda6bce-e8e8-446e-ad8f-07631abc84c4
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-child detail....0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-child detail....9fda6bce-e8e8-446e-ad8f-07631abc84c4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:02 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-mouse down selectObjectUUId:0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-get pre objectID .... for drog0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-child detail....0b99f84b-387d-4ea6-a768-df0b4ccf45df
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-child detail....177459da-8155-4488-a4da-52b6929448a0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:03 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-mouse down selectObjectUUId:177459da-8155-4488-a4da-52b6929448a0
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f177459da-8155-4488-a4da-52b6929448a0
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-get pre objectID .... for drog177459da-8155-4488-a4da-52b6929448a0
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-child detail....177459da-8155-4488-a4da-52b6929448a0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-child detail....2a54e131-9c75-42fd-b683-e1ef7967f9f7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-mouse down selectObjectUUId:2a54e131-9c75-42fd-b683-e1ef7967f9f7
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:04 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f2a54e131-9c75-42fd-b683-e1ef7967f9f7
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-get pre objectID .... for drog2a54e131-9c75-42fd-b683-e1ef7967f9f7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-child detail....2a54e131-9c75-42fd-b683-e1ef7967f9f7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-child detail....92e75c73-a5cc-43b7-a7b1-f5f766fbf03a
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-mouse down selectObjectUUId:92e75c73-a5cc-43b7-a7b1-f5f766fbf03a
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f92e75c73-a5cc-43b7-a7b1-f5f766fbf03a
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-get pre objectID .... for drog92e75c73-a5cc-43b7-a7b1-f5f766fbf03a
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-child detail....92e75c73-a5cc-43b7-a7b1-f5f766fbf03a
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-child detail....9bc86ca4-47fb-4dce-9c17-ec6424499706
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:05 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-mouse down selectObjectUUId:9bc86ca4-47fb-4dce-9c17-ec6424499706
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f9bc86ca4-47fb-4dce-9c17-ec6424499706
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-get pre objectID .... for drog9bc86ca4-47fb-4dce-9c17-ec6424499706
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-child detail....9bc86ca4-47fb-4dce-9c17-ec6424499706
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-child detail....32eaa67f-e7b6-42b6-b841-38a6dd486491
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:06 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-mouse down selectObjectUUId:32eaa67f-e7b6-42b6-b841-38a6dd486491
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f32eaa67f-e7b6-42b6-b841-38a6dd486491
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-get pre objectID .... for drog32eaa67f-e7b6-42b6-b841-38a6dd486491
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-child detail....32eaa67f-e7b6-42b6-b841-38a6dd486491
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-child detail....3893cc4f-10fe-4083-bece-fa63a23b3236
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-mouse down selectObjectUUId:3893cc4f-10fe-4083-bece-fa63a23b3236
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f3893cc4f-10fe-4083-bece-fa63a23b3236
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-get pre objectID .... for drog3893cc4f-10fe-4083-bece-fa63a23b3236
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:07 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-child detail....3893cc4f-10fe-4083-bece-fa63a23b3236
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-child detail....bc58c6e1-f70c-4661-ad80-0b006280b6f4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-mouse down selectObjectUUId:bc58c6e1-f70c-4661-ad80-0b006280b6f4
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789fbc58c6e1-f70c-4661-ad80-0b006280b6f4
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-get pre objectID .... for drogbc58c6e1-f70c-4661-ad80-0b006280b6f4
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-child detail....bc58c6e1-f70c-4661-ad80-0b006280b6f4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-child detail....8f5f9972-89e9-4df8-9719-4d7b13b67569
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:08 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-mouse down selectObjectUUId:8f5f9972-89e9-4df8-9719-4d7b13b67569
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f8f5f9972-89e9-4df8-9719-4d7b13b67569
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-get pre objectID .... for drog8f5f9972-89e9-4df8-9719-4d7b13b67569
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-child detail....8f5f9972-89e9-4df8-9719-4d7b13b67569
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-child detail....e71781d5-aba6-414b-8941-5458da1d1c69
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:09 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-mouse down selectObjectUUId:e71781d5-aba6-414b-8941-5458da1d1c69
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789fe71781d5-aba6-414b-8941-5458da1d1c69
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-get pre objectID .... for droge71781d5-aba6-414b-8941-5458da1d1c69
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-child detail....e71781d5-aba6-414b-8941-5458da1d1c69
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-child detail....4d6c8aaf-b003-4fb7-a37b-892bf86053a9
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:10 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-mouse down selectObjectUUId:4d6c8aaf-b003-4fb7-a37b-892bf86053a9
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f4d6c8aaf-b003-4fb7-a37b-892bf86053a9
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-get pre objectID .... for drog4d6c8aaf-b003-4fb7-a37b-892bf86053a9
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-child detail....4d6c8aaf-b003-4fb7-a37b-892bf86053a9
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-child detail....755e529e-7a58-40bc-8518-c5b155c381d7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:11 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-mouse down selectObjectUUId:755e529e-7a58-40bc-8518-c5b155c381d7
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f755e529e-7a58-40bc-8518-c5b155c381d7
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-get pre objectID .... for drog755e529e-7a58-40bc-8518-c5b155c381d7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-child detail....755e529e-7a58-40bc-8518-c5b155c381d7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-child detail....637ba7d0-731f-425c-bb6b-e7a184c92383
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:12 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-mouse down selectObjectUUId:637ba7d0-731f-425c-bb6b-e7a184c92383
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f637ba7d0-731f-425c-bb6b-e7a184c92383
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-get pre objectID .... for drog637ba7d0-731f-425c-bb6b-e7a184c92383
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-child detail....637ba7d0-731f-425c-bb6b-e7a184c92383
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-child detail....3db5b5c7-6d23-4e0d-a404-6f759849b701
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:13 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-mouse down selectObjectUUId:3db5b5c7-6d23-4e0d-a404-6f759849b701
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f3db5b5c7-6d23-4e0d-a404-6f759849b701
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-get pre objectID .... for drog3db5b5c7-6d23-4e0d-a404-6f759849b701
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-child detail....3db5b5c7-6d23-4e0d-a404-6f759849b701
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-child detail....da0e7182-76ef-4cef-89bf-6de6e1351a8f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:14 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-mouse down selectObjectUUId:da0e7182-76ef-4cef-89bf-6de6e1351a8f
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789fda0e7182-76ef-4cef-89bf-6de6e1351a8f
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-get pre objectID .... for drogda0e7182-76ef-4cef-89bf-6de6e1351a8f
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-child detail....da0e7182-76ef-4cef-89bf-6de6e1351a8f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-child detail....5b8a1c40-5366-44db-91e5-b008325ca671
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:15 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-mouse down selectObjectUUId:5b8a1c40-5366-44db-91e5-b008325ca671
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f5b8a1c40-5366-44db-91e5-b008325ca671
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-get pre objectID .... for drog5b8a1c40-5366-44db-91e5-b008325ca671
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-child detail....5b8a1c40-5366-44db-91e5-b008325ca671
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-child detail....508b8a7c-e087-4ecc-a540-6dfd6c9c76b7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-mouse down selectObjectUUId:508b8a7c-e087-4ecc-a540-6dfd6c9c76b7
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:16 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f508b8a7c-e087-4ecc-a540-6dfd6c9c76b7
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-get pre objectID .... for drog508b8a7c-e087-4ecc-a540-6dfd6c9c76b7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-child detail....508b8a7c-e087-4ecc-a540-6dfd6c9c76b7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-child detail....9be3db10-1159-4068-ba0d-af7d0c4074c2
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-mouse down selectObjectUUId:9be3db10-1159-4068-ba0d-af7d0c4074c2
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:17 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f9be3db10-1159-4068-ba0d-af7d0c4074c2
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-get pre objectID .... for drog9be3db10-1159-4068-ba0d-af7d0c4074c2
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-child detail....9be3db10-1159-4068-ba0d-af7d0c4074c2
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-child detail....d09d6406-7587-48db-91cb-15906737d4ad
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-mouse down selectObjectUUId:d09d6406-7587-48db-91cb-15906737d4ad
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789fd09d6406-7587-48db-91cb-15906737d4ad
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-get pre objectID .... for drogd09d6406-7587-48db-91cb-15906737d4ad
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-child detail....d09d6406-7587-48db-91cb-15906737d4ad
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-child detail....1a7bd05e-106c-45da-af8b-4923e522685f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:18 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-mouse down selectObjectUUId:1a7bd05e-106c-45da-af8b-4923e522685f
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f1a7bd05e-106c-45da-af8b-4923e522685f
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-get pre objectID .... for drog1a7bd05e-106c-45da-af8b-4923e522685f
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-child detail....1a7bd05e-106c-45da-af8b-4923e522685f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-child detail....495527f8-7a91-4735-9cb6-7a3c39e6a3fb
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:19 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:20 []DEBUG-mouse down selectObjectUUId:495527f8-7a91-4735-9cb6-7a3c39e6a3fb
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:20 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f495527f8-7a91-4735-9cb6-7a3c39e6a3fb
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-get pre objectID .... for drog495527f8-7a91-4735-9cb6-7a3c39e6a3fb
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-child detail....495527f8-7a91-4735-9cb6-7a3c39e6a3fb
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-child detail....9c5a1608-655d-41d2-986e-ca724632d5d8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-mouse down selectObjectUUId:9c5a1608-655d-41d2-986e-ca724632d5d8
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f9c5a1608-655d-41d2-986e-ca724632d5d8
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-get pre objectID .... for drog9c5a1608-655d-41d2-986e-ca724632d5d8
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-child detail....9c5a1608-655d-41d2-986e-ca724632d5d8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-child detail....31f9d725-57f2-42b8-b8d4-78e6ccee8f1a
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:21 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-mouse down selectObjectUUId:31f9d725-57f2-42b8-b8d4-78e6ccee8f1a
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f31f9d725-57f2-42b8-b8d4-78e6ccee8f1a
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-get pre objectID .... for drog31f9d725-57f2-42b8-b8d4-78e6ccee8f1a
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-child detail....31f9d725-57f2-42b8-b8d4-78e6ccee8f1a
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-child detail....161d48bd-9a30-42be-a401-1952fa3b40b4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:22 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-mouse down selectObjectUUId:161d48bd-9a30-42be-a401-1952fa3b40b4
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f161d48bd-9a30-42be-a401-1952fa3b40b4
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-get pre objectID .... for drog161d48bd-9a30-42be-a401-1952fa3b40b4
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-child detail....161d48bd-9a30-42be-a401-1952fa3b40b4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-child detail....851fb853-add7-4d57-aab1-4ccf4651ce30
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-mouse down selectObjectUUId:851fb853-add7-4d57-aab1-4ccf4651ce30
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f851fb853-add7-4d57-aab1-4ccf4651ce30
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-get pre objectID .... for drog851fb853-add7-4d57-aab1-4ccf4651ce30
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-child detail....851fb853-add7-4d57-aab1-4ccf4651ce30
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-child detail....7ea33bbc-fdcd-45de-b04c-9a99d8292118
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:23 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-mouse down selectObjectUUId:7ea33bbc-fdcd-45de-b04c-9a99d8292118
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f7ea33bbc-fdcd-45de-b04c-9a99d8292118
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-get pre objectID .... for drog7ea33bbc-fdcd-45de-b04c-9a99d8292118
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-child detail....7ea33bbc-fdcd-45de-b04c-9a99d8292118
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-child detail....17f410b3-168e-4a05-a304-078f8817938b
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:24 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-mouse down selectObjectUUId:17f410b3-168e-4a05-a304-078f8817938b
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f17f410b3-168e-4a05-a304-078f8817938b
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-get pre objectID .... for drog17f410b3-168e-4a05-a304-078f8817938b
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-child detail....17f410b3-168e-4a05-a304-078f8817938b
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-child detail....d018ec05-abaa-4a38-a134-7f28f3ba3be0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:25 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-mouse down selectObjectUUId:e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:d018ec05-abaa-4a38-a134-7f28f3ba3be0e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:d018ec05-abaa-4a38-a134-7f28f3ba3be0
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-get pre objectID .... for droge887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-child detail....e887d13b-1fff-4331-aade-e490cf61789f
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-child detail....d018ec05-abaa-4a38-a134-7f28f3ba3be0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-child detail....8f10b73e-98b5-4f72-a21e-d59010870c7e
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:28 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:50 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 19:39:50 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 19:39:50 []DEBUG-child detail....ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:50 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 19:39:51 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 19:39:51 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 19:39:51 []DEBUG-child detail....ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:51 []DEBUG-child detail....21e88843-651a-4164-a1be-571e96767ab1
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:51 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 19:39:52 []DEBUG-mouse down selectObjectUUId:ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:52 []DEBUG-mouse down selectObjectUUId:21e88843-651a-4164-a1be-571e96767ab1
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:52 []DEBUG-mouse down selectObjectUUId:21e88843-651a-4164-a1be-571e96767ab1
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:52 []DEBUG-mouseDoubleClick selectObjectUUId:21e88843-651a-4164-a1be-571e96767ab1
+       [main]
+       (DataFlowArea.java:245)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:52 []DEBUG-begin draw line from 21e88843-651a-4164-a1be-571e96767ab1   to   ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:256)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:54 []DEBUG-mouse down selectObjectUUId:ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:54 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:54 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:21e88843-651a-4164-a1be-571e96767ab1ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:54 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:21e88843-651a-4164-a1be-571e96767ab1
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:39:54 []DEBUG-get pre objectID .... for droged6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:41:52 []DEBUG-child detail....ed6b39d7-7977-4fed-8fd9-b0705610fe19
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:41:52 []DEBUG-child detail....21e88843-651a-4164-a1be-571e96767ab1
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:41:52 []DEBUG-child detail....483b1b0b-dc3b-4ed4-8938-f46da14c28ac
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:41:52 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:43:57 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 19:43:57 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 19:43:57 []DEBUG-child detail....d597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:43:57 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 19:43:58 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 19:43:59 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 19:43:59 []DEBUG-child detail....d597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:43:59 []DEBUG-child detail....628db208-e8cb-4cfd-8d06-d9370b12288e
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:43:59 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 19:43:59 []DEBUG-mouse down selectObjectUUId:d597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-mouse down selectObjectUUId:628db208-e8cb-4cfd-8d06-d9370b12288e
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-mouse down selectObjectUUId:628db208-e8cb-4cfd-8d06-d9370b12288e
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-mouseDoubleClick selectObjectUUId:628db208-e8cb-4cfd-8d06-d9370b12288e
+       [main]
+       (DataFlowArea.java:245)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-begin draw line from 628db208-e8cb-4cfd-8d06-d9370b12288e   to   d597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:256)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-mouse down selectObjectUUId:d597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:628db208-e8cb-4cfd-8d06-d9370b12288ed597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:628db208-e8cb-4cfd-8d06-d9370b12288e
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:00 []DEBUG-get pre objectID .... for drogd597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:27 []DEBUG-child detail....d597539f-d37d-4671-b01f-828f936adb18
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:44:27 []DEBUG-child detail....628db208-e8cb-4cfd-8d06-d9370b12288e
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:15 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 19:46:16 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 19:46:16 []DEBUG-child detail....e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:16 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 19:46:16 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 19:46:17 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 19:46:17 []DEBUG-child detail....e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:17 []DEBUG-child detail....a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:17 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 19:46:17 []DEBUG-mouse down selectObjectUUId:e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:18 []DEBUG-mouse down selectObjectUUId:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:18 []DEBUG-mouse down selectObjectUUId:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:18 []DEBUG-mouseDoubleClick selectObjectUUId:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:245)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:18 []DEBUG-begin draw line from a3e30945-f5e2-441a-a14e-295c5f73f6d0   to   e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:256)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:18 []DEBUG-mouse down selectObjectUUId:e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:18 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-get pre objectID .... for droge44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-child detail....e44d86b3-be89-48f2-aaad-3d27377275e8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-child detail....a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-child detail....f0b315d7-6804-4242-b036-956aad62f799
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-mouse down selectObjectUUId:f0b315d7-6804-4242-b036-956aad62f799
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0f0b315d7-6804-4242-b036-956aad62f799
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-get pre objectID .... for drogf0b315d7-6804-4242-b036-956aad62f799
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-child detail....a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-child detail....f0b315d7-6804-4242-b036-956aad62f799
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-child detail....e39b0ae1-369d-49e5-9fac-e92b0dbc3fc6
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:19 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-mouse down selectObjectUUId:e39b0ae1-369d-49e5-9fac-e92b0dbc3fc6
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0e39b0ae1-369d-49e5-9fac-e92b0dbc3fc6
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-get pre objectID .... for droge39b0ae1-369d-49e5-9fac-e92b0dbc3fc6
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-child detail....a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-child detail....e39b0ae1-369d-49e5-9fac-e92b0dbc3fc6
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-child detail....051ab9d8-c4a7-43bb-b3ee-a4b4f69c59a8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:20 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-mouse down selectObjectUUId:051ab9d8-c4a7-43bb-b3ee-a4b4f69c59a8
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0051ab9d8-c4a7-43bb-b3ee-a4b4f69c59a8
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-get pre objectID .... for drog051ab9d8-c4a7-43bb-b3ee-a4b4f69c59a8
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-child detail....a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-child detail....051ab9d8-c4a7-43bb-b3ee-a4b4f69c59a8
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:21 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-mouse down selectObjectUUId:a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940da3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-get pre objectID .... for droga3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-child detail....a3e30945-f5e2-441a-a14e-295c5f73f6d0
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-child detail....e65b9dcc-d5e4-4e7f-8cde-04152adc1698
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:22 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-mouse down selectObjectUUId:e65b9dcc-d5e4-4e7f-8cde-04152adc1698
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940de65b9dcc-d5e4-4e7f-8cde-04152adc1698
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-get pre objectID .... for droge65b9dcc-d5e4-4e7f-8cde-04152adc1698
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-child detail....e65b9dcc-d5e4-4e7f-8cde-04152adc1698
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-child detail....668974c3-82da-4831-9397-bede8fb72057
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:23 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-mouse down selectObjectUUId:668974c3-82da-4831-9397-bede8fb72057
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d668974c3-82da-4831-9397-bede8fb72057
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-get pre objectID .... for drog668974c3-82da-4831-9397-bede8fb72057
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-child detail....668974c3-82da-4831-9397-bede8fb72057
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-child detail....1ce3fb9a-5b4f-4114-b48c-a7a90006dbc4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-mouse down selectObjectUUId:1ce3fb9a-5b4f-4114-b48c-a7a90006dbc4
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:24 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d1ce3fb9a-5b4f-4114-b48c-a7a90006dbc4
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-get pre objectID .... for drog1ce3fb9a-5b4f-4114-b48c-a7a90006dbc4
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-child detail....1ce3fb9a-5b4f-4114-b48c-a7a90006dbc4
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-child detail....12adb93e-9452-4775-856f-4a7a6f1e316e
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-mouse down selectObjectUUId:12adb93e-9452-4775-856f-4a7a6f1e316e
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d12adb93e-9452-4775-856f-4a7a6f1e316e
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-get pre objectID .... for drog12adb93e-9452-4775-856f-4a7a6f1e316e
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-child detail....12adb93e-9452-4775-856f-4a7a6f1e316e
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-child detail....3663e9ae-dfa8-40c4-9bc4-470c7155896c
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:25 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:28 []DEBUG-mouse down selectObjectUUId:3663e9ae-dfa8-40c4-9bc4-470c7155896c
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:28 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d3663e9ae-dfa8-40c4-9bc4-470c7155896c
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-get pre objectID .... for drog3663e9ae-dfa8-40c4-9bc4-470c7155896c
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-child detail....3663e9ae-dfa8-40c4-9bc4-470c7155896c
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-child detail....29575cc6-ad5e-4f4a-88e2-3442be38d0c7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-mouse down selectObjectUUId:29575cc6-ad5e-4f4a-88e2-3442be38d0c7
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:29 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d29575cc6-ad5e-4f4a-88e2-3442be38d0c7
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-get pre objectID .... for drog29575cc6-ad5e-4f4a-88e2-3442be38d0c7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-child detail....29575cc6-ad5e-4f4a-88e2-3442be38d0c7
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-child detail....b408ed1c-f306-4b8c-96ca-0cda86bf807c
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-mouse down selectObjectUUId:b408ed1c-f306-4b8c-96ca-0cda86bf807c
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940db408ed1c-f306-4b8c-96ca-0cda86bf807c
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-get pre objectID .... for drogb408ed1c-f306-4b8c-96ca-0cda86bf807c
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-child detail....b408ed1c-f306-4b8c-96ca-0cda86bf807c
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-child detail....2db268ac-444a-4d1f-97c8-126107504cbc
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:30 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-mouse down selectObjectUUId:2db268ac-444a-4d1f-97c8-126107504cbc
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d2db268ac-444a-4d1f-97c8-126107504cbc
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-get pre objectID .... for drog2db268ac-444a-4d1f-97c8-126107504cbc
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-child detail....2db268ac-444a-4d1f-97c8-126107504cbc
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-child detail....662f3da0-98f9-4354-b158-6fd0107f5952
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:31 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-mouse down selectObjectUUId:662f3da0-98f9-4354-b158-6fd0107f5952
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d662f3da0-98f9-4354-b158-6fd0107f5952
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-get pre objectID .... for drog662f3da0-98f9-4354-b158-6fd0107f5952
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-child detail....02c4e487-ba89-49d4-b1b6-02e45fae940d
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-child detail....662f3da0-98f9-4354-b158-6fd0107f5952
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-child detail....ebb6b49e-2071-42b9-877b-d5b6b85c6ba9
+       [main]
+       (DataFlowArea.java:385)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:46:32 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:49 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 19:47:50 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 19:47:50 []DEBUG-child detail....61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:50 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 19:47:50 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 19:47:51 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 19:47:51 []DEBUG-child detail....61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:51 []DEBUG-child detail....6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:51 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 19:47:51 []DEBUG-mouse down selectObjectUUId:61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:52 []DEBUG-mouse down selectObjectUUId:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:52 []DEBUG-mouse down selectObjectUUId:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:52 []DEBUG-mouseDoubleClick selectObjectUUId:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:245)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:52 []DEBUG-begin draw line from 6f684f72-ded0-49c8-966b-96a0b6ebf22a   to   61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:256)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:52 []DEBUG-mouse down selectObjectUUId:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:52 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:61ab8213-669c-4e34-aca6-7dfbcebef79e6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-get pre objectID .... for drog6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-child detail....61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-child detail....6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-child detail....41a42c55-6ee1-46f1-a46b-017d6ddf8c8d
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-mouse down selectObjectUUId:61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:53 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-get pre objectID .... for drog61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-child detail....61ab8213-669c-4e34-aca6-7dfbcebef79e
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-child detail....41a42c55-6ee1-46f1-a46b-017d6ddf8c8d
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-child detail....dcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:54 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-mouse down selectObjectUUId:41a42c55-6ee1-46f1-a46b-017d6ddf8c8d
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:dcc93c57-7e59-48ac-bd7e-f61571613d3641a42c55-6ee1-46f1-a46b-017d6ddf8c8d
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:dcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-get pre objectID .... for drog41a42c55-6ee1-46f1-a46b-017d6ddf8c8d
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-child detail....41a42c55-6ee1-46f1-a46b-017d6ddf8c8d
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-child detail....dcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-child detail....54125cc2-6b7b-4df0-bf25-e0c585426cac
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:55 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-mouse down selectObjectUUId:dcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22adcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-get pre objectID .... for drogdcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-child detail....dcc93c57-7e59-48ac-bd7e-f61571613d36
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-child detail....54125cc2-6b7b-4df0-bf25-e0c585426cac
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-child detail....020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:56 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-mouse down selectObjectUUId:54125cc2-6b7b-4df0-bf25-e0c585426cac
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:020ba65d-2477-46d6-94d4-89216bf7f65754125cc2-6b7b-4df0-bf25-e0c585426cac
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-get pre objectID .... for drog54125cc2-6b7b-4df0-bf25-e0c585426cac
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-child detail....54125cc2-6b7b-4df0-bf25-e0c585426cac
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-child detail....020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-child detail....ee4e5e82-3716-45c8-9274-5871646502d7
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:57 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-mouse down selectObjectUUId:020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-get pre objectID .... for drog020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-child detail....020ba65d-2477-46d6-94d4-89216bf7f657
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-child detail....ee4e5e82-3716-45c8-9274-5871646502d7
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-child detail....03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:58 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-mouse down selectObjectUUId:ee4e5e82-3716-45c8-9274-5871646502d7
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:03629ecd-d8e7-4832-b426-ce1a1ac68c05ee4e5e82-3716-45c8-9274-5871646502d7
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-get pre objectID .... for drogee4e5e82-3716-45c8-9274-5871646502d7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-child detail....ee4e5e82-3716-45c8-9274-5871646502d7
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-child detail....03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-child detail....2a15974c-ceb1-4344-9a76-40890cc866f8
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:47:59 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-mouse down selectObjectUUId:03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-get pre objectID .... for drog03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-child detail....03629ecd-d8e7-4832-b426-ce1a1ac68c05
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-child detail....2a15974c-ceb1-4344-9a76-40890cc866f8
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-child detail....8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:00 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-mouse down selectObjectUUId:2a15974c-ceb1-4344-9a76-40890cc866f8
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:8f72fa10-b3b5-465e-bb62-e81d285576232a15974c-ceb1-4344-9a76-40890cc866f8
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-get pre objectID .... for drog2a15974c-ceb1-4344-9a76-40890cc866f8
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-child detail....2a15974c-ceb1-4344-9a76-40890cc866f8
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-child detail....8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-child detail....ea67e3b4-3cc6-4bcc-869c-3c98cf487d8d
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:01 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-mouse down selectObjectUUId:ea67e3b4-3cc6-4bcc-869c-3c98cf487d8d
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:8f72fa10-b3b5-465e-bb62-e81d28557623ea67e3b4-3cc6-4bcc-869c-3c98cf487d8d
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-get pre objectID .... for drogea67e3b4-3cc6-4bcc-869c-3c98cf487d8d
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-child detail....8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-child detail....ea67e3b4-3cc6-4bcc-869c-3c98cf487d8d
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-child detail....7588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:02 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-mouse down selectObjectUUId:8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-get pre objectID .... for drog8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-child detail....8f72fa10-b3b5-465e-bb62-e81d28557623
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-child detail....7588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-child detail....d384273d-782c-4c0b-9e6e-4bb55a64fa0b
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-mouse down selectObjectUUId:d384273d-782c-4c0b-9e6e-4bb55a64fa0b
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:03 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22ad384273d-782c-4c0b-9e6e-4bb55a64fa0b
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:6f684f72-ded0-49c8-966b-96a0b6ebf22a
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-get pre objectID .... for drogd384273d-782c-4c0b-9e6e-4bb55a64fa0b
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-child detail....7588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-child detail....d384273d-782c-4c0b-9e6e-4bb55a64fa0b
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-child detail....406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:04 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-mouse down selectObjectUUId:7588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:406ff6a4-687a-4af4-a4f2-6d2319a3ee977588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-get pre objectID .... for drog7588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-child detail....7588d46a-bac0-482f-ad01-b86d70ffbcd0
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-child detail....406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-child detail....31f6571a-58d1-4e28-8f3b-1c6a405170db
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:05 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-mouse down selectObjectUUId:31f6571a-58d1-4e28-8f3b-1c6a405170db
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:406ff6a4-687a-4af4-a4f2-6d2319a3ee9731f6571a-58d1-4e28-8f3b-1c6a405170db
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-get pre objectID .... for drog31f6571a-58d1-4e28-8f3b-1c6a405170db
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-child detail....406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-child detail....31f6571a-58d1-4e28-8f3b-1c6a405170db
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-child detail....834b36cd-5897-4b04-8937-04366460c234
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:06 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-mouse down selectObjectUUId:834b36cd-5897-4b04-8937-04366460c234
+       [main]
+       (DataFlowArea.java:300)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:188)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:406ff6a4-687a-4af4-a4f2-6d2319a3ee97834b36cd-5897-4b04-8937-04366460c234
+       [main]
+       (DataFlowArea.java:211)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-get pre objectID .... for drog834b36cd-5897-4b04-8937-04366460c234
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-child detail....406ff6a4-687a-4af4-a4f2-6d2319a3ee97
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-child detail....834b36cd-5897-4b04-8937-04366460c234
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-child detail....aa61ed5e-200b-49af-9257-d1efb069147d
+       [main]
+       (DataFlowArea.java:391)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:48:07 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:219)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:39 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 19:59:39 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 19:59:39 []DEBUG-child detail....bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:39 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 19:59:40 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 19:59:41 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 19:59:41 []DEBUG-child detail....bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:41 []DEBUG-child detail....491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:41 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 19:59:42 []DEBUG-mouse down selectObjectUUId:bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:42 []DEBUG-mouse down selectObjectUUId:491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:42 []DEBUG-mouse down selectObjectUUId:491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:42 []DEBUG-mouseDoubleClick selectObjectUUId:491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:242)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:42 []DEBUG-begin draw line from 491d0c40-0aaf-492f-b663-f0a58fbbb995   to   bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:253)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-mouse down selectObjectUUId:bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:491d0c40-0aaf-492f-b663-f0a58fbbb995bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-get pre objectID .... for drogbfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-child detail....bfc09769-b367-44f2-83b3-1533b78b6cc7
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-child detail....491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-child detail....1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:43 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-mouse down selectObjectUUId:491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:1b3b4ff8-b7c5-4aec-963a-63aef9396e4e491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-get pre objectID .... for drog491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-child detail....491d0c40-0aaf-492f-b663-f0a58fbbb995
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-child detail....1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-child detail....24e3b7cf-be04-4b4a-b5e3-d16eb3165819
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:44 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-mouse down selectObjectUUId:24e3b7cf-be04-4b4a-b5e3-d16eb3165819
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:1b3b4ff8-b7c5-4aec-963a-63aef9396e4e24e3b7cf-be04-4b4a-b5e3-d16eb3165819
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-get pre objectID .... for drog24e3b7cf-be04-4b4a-b5e3-d16eb3165819
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-child detail....1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-child detail....24e3b7cf-be04-4b4a-b5e3-d16eb3165819
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-child detail....53b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:45 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-mouse down selectObjectUUId:1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:53b7c00d-a520-4082-9dfa-33c98f181fa51b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:53b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-get pre objectID .... for drog1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-child detail....1b3b4ff8-b7c5-4aec-963a-63aef9396e4e
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-child detail....53b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-child detail....810c98d3-98f0-4264-a604-0c457421bd44
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-mouse down selectObjectUUId:53b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:46 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:810c98d3-98f0-4264-a604-0c457421bd4453b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:810c98d3-98f0-4264-a604-0c457421bd44
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-get pre objectID .... for drog53b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-child detail....53b7c00d-a520-4082-9dfa-33c98f181fa5
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-child detail....810c98d3-98f0-4264-a604-0c457421bd44
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-child detail....0cd90343-c40c-4ac2-8e71-16efb6d2d0bf
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 19:59:47 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:09 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:76)
+       [cn.icesoft.main.OptionPlants]
+130509 20:24:10 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:85)
+       [cn.icesoft.main.OptionPlants]
+130509 20:24:10 []DEBUG-child detail....524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:10 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:92)
+       [cn.icesoft.main.OptionPlants]
+130509 20:24:10 []DEBUG-....... start
+       [main]
+       (OptionPlants.java:116)
+       [cn.icesoft.main.OptionPlants]
+130509 20:24:10 []DEBUG-....... set value
+       [main]
+       (OptionPlants.java:125)
+       [cn.icesoft.main.OptionPlants]
+130509 20:24:10 []DEBUG-child detail....524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:10 []DEBUG-child detail....733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:10 []DEBUG-....... finished
+       [main]
+       (OptionPlants.java:132)
+       [cn.icesoft.main.OptionPlants]
+130509 20:24:11 []DEBUG-mouse down selectObjectUUId:524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-mouse down selectObjectUUId:733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-mouse down selectObjectUUId:733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-mouseDoubleClick selectObjectUUId:733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:242)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-begin draw line from 733ce9d3-f662-4ccd-9819-5bfdaef690b7   to   524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:253)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-mouse down selectObjectUUId:524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-set data detail.... for drag0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:733ce9d3-f662-4ccd-9819-5bfdaef690b7524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-set value detail.... for drog0Shadoop源(UAT)H10.71.84.233,10000sendLineToObjectID:733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-get pre objectID .... for drog524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-child detail....524868f7-a14d-4b37-a92d-b6b3ee836917
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-child detail....733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-child detail....8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:12 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-mouse down selectObjectUUId:733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-get pre objectID .... for drog733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-child detail....733ce9d3-f662-4ccd-9819-5bfdaef690b7
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-child detail....8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-child detail....67f2df8d-acf9-4bff-a074-212026bac6c3
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:13 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-mouse down selectObjectUUId:67f2df8d-acf9-4bff-a074-212026bac6c3
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb67f2df8d-acf9-4bff-a074-212026bac6c3
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-get pre objectID .... for drog67f2df8d-acf9-4bff-a074-212026bac6c3
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-child detail....8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-child detail....67f2df8d-acf9-4bff-a074-212026bac6c3
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-child detail....e6cf7525-087f-45af-aef5-4b9747c6daea
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-mouse down selectObjectUUId:e6cf7525-087f-45af-aef5-4b9747c6daea
+       [main]
+       (DataFlowArea.java:297)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:14 []DEBUG-....... start
+       [main]
+       (DataFlowArea.java:186)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-set data detail.... for drag0Soracle源O10.71.84.233,10000recieveLineToObjectID:8eaa3f64-043e-4b46-bcca-2ea5d5cb35fbe6cf7525-087f-45af-aef5-4b9747c6daea
+       [main]
+       (DataFlowArea.java:209)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-set value detail.... for drog0Soracle源O10.71.84.233,10000recieveLineToObjectID:8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:121)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-get pre objectID .... for droge6cf7525-087f-45af-aef5-4b9747c6daea
+       [main]
+       (DataFlowArea.java:122)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-child detail....8eaa3f64-043e-4b46-bcca-2ea5d5cb35fb
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-child detail....e6cf7525-087f-45af-aef5-4b9747c6daea
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-child detail....f93fcdbe-28a3-4638-acb4-c2e9f927e3f5
+       [main]
+       (DataFlowArea.java:389)
+       [cn.icesoft.main.DataFlowArea]
+130509 20:24:15 []DEBUG-....... finished
+       [main]
+       (DataFlowArea.java:216)
+       [cn.icesoft.main.DataFlowArea]
