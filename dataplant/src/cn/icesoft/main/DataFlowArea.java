@@ -168,9 +168,9 @@ public class DataFlowArea extends Composite {
 								
 					}
 					
-					
+					relink(gc,composite,btnNewButton);
 				}
-				relink(gc,composite,btnNewButton);
+				
 				
 				DragSource dragSource = new DragSource(btnNewButton, DND.DROP_MOVE|DND.DROP_COPY);
 				dragSource.setTransfer(new Transfer[]{TextTransfer.getInstance()});
@@ -366,14 +366,8 @@ public class DataFlowArea extends Composite {
 						{
 							
 							gc.setLineWidth(2);
-							if(ctl_source.getBounds().x!=boo.getBounds().x)
-							{
-								paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,boo.getBounds().x,boo.getBounds().y+31);
-							}
-							else
-							{
-								paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,ctl_target.getBounds().x,ctl_target.getBounds().y+31);
-							}
+							paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,ctl_target.getBounds().x,ctl_target.getBounds().y+31);
+							
 							
 							
 							break;
