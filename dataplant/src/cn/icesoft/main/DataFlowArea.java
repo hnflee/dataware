@@ -159,7 +159,7 @@ public class DataFlowArea extends Composite {
 							{
 								ctl_source.setData("sendLineToObjectID", uuid.toString());
 							}
-							else if(ctl_source.getData("recieveLineToObjectID")!=null&&ctl_source.getData("recieveLineToObjectID").equals(((String)event.data).split("\010")[1]))
+							else if(ctl_source.getData("recieveLineToObjectID")!=null&&ctl_source.getData("recieveLineToObjectID").toString().equals(((String)event.data).split("\010")[1]))
 							{
 								ctl_source.setData("recieveLineToObjectID", uuid.toString());
 							}
@@ -366,7 +366,15 @@ public class DataFlowArea extends Composite {
 						{
 							
 							gc.setLineWidth(2);
-							paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,boo.getBounds().x,boo.getBounds().y+31);
+							if(ctl_source.getBounds().x!=boo.getBounds().x)
+							{
+								paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,boo.getBounds().x,boo.getBounds().y+31);
+							}
+							else
+							{
+								paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,ctl_target.getBounds().x,ctl_target.getBounds().y+31);
+							}
+							
 							
 							break;
 							
