@@ -117,7 +117,7 @@ public class DataFlowArea extends Composite {
 					public void dragStart(DragSourceEvent dragevent) {
 						// TODO Auto-generated method stub
 						
-						System.out.println("....... start");
+						log.debug("....... start");
 					}
 
 					@Override
@@ -130,7 +130,7 @@ public class DataFlowArea extends Composite {
 					@Override
 					public void dragFinished(DragSourceEvent dragevent) {
 						// TODO Auto-generated method stub
-						System.out.println("....... finished");
+						log.debug("....... finished");
 						btnNewButton.dispose();
 					}});
 				

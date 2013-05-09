@@ -1,5 +1,6 @@
 package cn.icesoft.main;
 
+import org.apache.log4j.Logger;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.dnd.DND;
 import org.eclipse.swt.dnd.DragSource;
@@ -24,6 +25,7 @@ import com.fengmanfei.util.ImageFactory;
 
 public class OptionPlants extends Composite {
 	Rectangle area = Display.getDefault().getClientArea();
+	static Logger log = Logger.getLogger(OptionPlants.class);//log4j的日志文件
 	/**
 	 * Create the composite.
 	 * @param parent
@@ -69,9 +71,9 @@ public class OptionPlants extends Composite {
 				if(btnNewButton.forceFocus()==false)
 				{
 					event.doit=false;
-					System.out.println("....... forceFocus false");
+					log.debug("....... forceFocus false");
 				}
-				System.out.println("....... start");
+				log.debug("....... start");
 			}
 
 			@Override
@@ -80,14 +82,14 @@ public class OptionPlants extends Composite {
 				if(TextTransfer.getInstance().isSupportedType(event.dataType))
 				{
 					event.data=btnNewButton.getData("value");
-					System.out.println("....... set value");
+					log.debug("....... set value");
 				}
 			}
 
 			@Override
 			public void dragFinished(DragSourceEvent event) {
 				// TODO Auto-generated method stub
-				System.out.println("....... finished");
+				log.debug("....... finished");
 			}});
 		
 		
@@ -109,9 +111,9 @@ public class OptionPlants extends Composite {
 				if(btnNewButton_1.forceFocus()==false)
 				{
 					event.doit=false;
-					System.out.println("....... forceFocus false");
+					log.debug("....... forceFocus false");
 				}
-				System.out.println("....... start");
+				log.debug("....... start");
 			}
 
 			@Override
@@ -120,14 +122,14 @@ public class OptionPlants extends Composite {
 				if(TextTransfer.getInstance().isSupportedType(event.dataType))
 				{
 					event.data=btnNewButton_1.getData("value");
-					System.out.println("....... set value");
+					log.debug("....... set value");
 				}
 			}
 
 			@Override
 			public void dragFinished(DragSourceEvent event) {
 				// TODO Auto-generated method stub
-				System.out.println("....... finished");
+				log.debug("....... finished");
 			}});
 		
 		
