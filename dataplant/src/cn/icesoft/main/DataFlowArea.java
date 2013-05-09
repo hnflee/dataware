@@ -2,6 +2,7 @@ package cn.icesoft.main;
 
 
 import java.util.UUID;
+import org.apache.log4j.Logger;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.dnd.DND;
@@ -22,7 +23,7 @@ import org.eclipse.ui.forms.widgets.FormToolkit;
 import com.fengmanfei.util.ImageFactory;
 
 public class DataFlowArea extends Composite {
-
+	static Logger log = Logger.getLogger(DataFlowArea.class);//log4j的日志文件
 	Rectangle area = Display.getDefault().getClientArea();
 	private final FormToolkit formToolkit = new FormToolkit(Display.getDefault());
 	/**
@@ -105,19 +106,6 @@ public class DataFlowArea extends Composite {
 				{
 					btnNewButton.setData("value",((String)event.data).split("\010")[0]);
 					
-					
-					for(int i=0;i<composite.getChildren().length;i++)
-					{
-						UUID tmp=(UUID)composite.getChildren()[i].getData("objectID");
-						
-						System.out.println("当前存在的UUID  "+tmp.toString());
-						
-						if(tmp.toString().equals(((String)event.data).split("\10")[1]))
-						{
-							composite.getChildren()[i].setVisible(false);
-						}
-					}
-					
 				}
 				
 				
@@ -143,6 +131,7 @@ public class DataFlowArea extends Composite {
 					public void dragFinished(DragSourceEvent dragevent) {
 						// TODO Auto-generated method stub
 						System.out.println("....... finished");
+						btnNewButton.dispose();
 					}});
 				
 				
