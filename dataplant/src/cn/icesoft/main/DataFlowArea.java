@@ -109,7 +109,20 @@ public class DataFlowArea extends Composite {
 				
 				log.debug("runItem  is select");
 				//调用后台处理过程 ，获取返回值，同时送到 rightcomp用来展示进程状态和下载文件等操作
-				rightcomp_.setFromDataflow_(composite);
+				int i=0;
+				while(i<10)
+				{
+					i++;
+					
+					rightcomp_.setFromDataflow_(composite);
+					try {
+						Thread.sleep(1000);
+					} catch (InterruptedException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}
+				
 			}
 
 			@Override
