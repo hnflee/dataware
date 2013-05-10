@@ -168,7 +168,7 @@ public class DataFlowArea extends Composite {
 								
 					}
 					
-					relink(gc,composite,btnNewButton);
+					
 				}
 				
 				
@@ -215,7 +215,7 @@ public class DataFlowArea extends Composite {
 						// TODO Auto-generated method stub
 						log.debug("....... finished");
 						btnNewButton.dispose();
-						
+						relink(gc,composite);
 					}
 
 					});
@@ -344,7 +344,7 @@ public class DataFlowArea extends Composite {
 		
 	}
 
-	private void relink(GC gc, Composite composite,Button boo) {
+	private void relink(GC gc, Composite composite) {
 		
 			
 			
