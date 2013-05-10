@@ -60,7 +60,7 @@ public class DataFlowArea extends Composite {
 		dropTarget.setTransfer(new Transfer[]{TextTransfer.getInstance()});
 		
 		ToolBar toolBar = new ToolBar(composite, SWT.FLAT| SWT.RIGHT);
-		toolBar.setBounds(0, 0, 57, 25);
+		toolBar.setBounds(0, 0, (int)(area.width*0.7), 25);
 		
 		formToolkit.adapt(toolBar);
 		formToolkit.paintBordersFor(toolBar);
@@ -84,6 +84,25 @@ public class DataFlowArea extends Composite {
 				
 			}});
 		
+		
+		final ToolItem runItem =new ToolItem(toolBar,SWT.PUSH);
+		runItem.setText("执行");
+		runItem.setImage(ImageFactory.loadImage(toolBar.getDisplay(), "\\icons\\eclipse_icons\\run_exc(1).gif"));
+		runItem.addSelectionListener(new SelectionListener(){
+
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				// TODO Auto-generated method stub
+				
+				log.debug("runItem  is select");
+				
+			}
+
+			@Override
+			public void widgetDefaultSelected(SelectionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}});
 		
 		
 		
@@ -331,10 +350,7 @@ public class DataFlowArea extends Composite {
 						
 						if(!painded&&status==100)
 						{
-							MessageBox messageBox =
-								    new MessageBox(composite.getShell(),SWT.ICON_WARNING);
-								messageBox.setMessage("没有发现源控件，请先单击源控件。");
-								messageBox.open(); 
+							//根据按钮类型，创建不同的输入框，之后保存到对象的data里面
 						}
 						
 						
