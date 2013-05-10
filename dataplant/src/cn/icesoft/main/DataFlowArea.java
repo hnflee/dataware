@@ -35,7 +35,7 @@ public class DataFlowArea extends Composite {
 	Rectangle area = Display.getDefault().getClientArea();
 	private final FormToolkit formToolkit = new FormToolkit(Display.getDefault());
 	
-	private LinkedList linklist = new LinkedList();
+	private LinkedList<String> linklist = new LinkedList<String>();
 	
 	/**
 	 * Create the composite.
@@ -367,8 +367,6 @@ public class DataFlowArea extends Composite {
 							
 							gc.setLineWidth(2);
 							paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,ctl_target.getBounds().x,ctl_target.getBounds().y+31);
-							
-							
 							
 							break;
 							
