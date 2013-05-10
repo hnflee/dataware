@@ -171,6 +171,10 @@ public class DataFlowArea extends Composite {
 				{
 					btnNewButton.setImage(ImageFactory.loadImage(composite.getDisplay(), "\\icons\\eclipse_icons\\memory_view.gif"));
 				}
+				if(((String)event.data).split("\001")[1].equals("O"))
+				{
+					btnNewButton.setImage(ImageFactory.loadImage(composite.getDisplay(), "\\icons\\eclipse_icons\\up_nav(1).gif"));
+				}
 				
 				if(event.data!=null&&((String)event.data).substring(0,1).equals("1"))
 				{
@@ -354,7 +358,7 @@ public class DataFlowArea extends Composite {
 						
 						linklist.clear();
 						
-						if(!painded&&status==100)
+						if(!painded&&status==100&&btnNewButton.getData("value").toString().split("\001")[1].equals("Q"))
 						{
 							ButtonSQLDialog sqldialog=new ButtonSQLDialog(composite.getShell());
 							sqldialog.setButton(btnNewButton);

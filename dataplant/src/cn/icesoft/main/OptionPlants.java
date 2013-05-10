@@ -155,7 +155,7 @@ public class OptionPlants extends Composite {
 		
 		
 		
-		 DragSource dragSource_3 = new DragSource(btnNewButton_2, DND.DROP_MOVE|DND.DROP_COPY);
+		DragSource dragSource_3 = new DragSource(btnNewButton_2, DND.DROP_MOVE|DND.DROP_COPY);
 		
 		dragSource_3.setTransfer(new Transfer[]{TextTransfer.getInstance()});
 		dragSource_3.addDragListener(new DragSourceListener(){
@@ -195,6 +195,51 @@ public class OptionPlants extends Composite {
 		
 		TabItem item2=new TabItem(tabFolder,SWT.NONE);
 		item2.setText("输出格式");
+		
+		Composite composite_2 = new Composite(tabFolder, SWT.NONE);
+		item2.setControl(composite_2);
+		
+		final Button btnNewButton_3 = new Button(composite_2, SWT.NONE);
+
+		btnNewButton_3.setBounds(10, 81, 108, 63);
+		btnNewButton_3.setText("EXCEL");
+		btnNewButton_3.setData("value", "1\001O\001EXCEL\001E\001EXCEL");
+		btnNewButton_3.setImage(ImageFactory.loadImage(toolBar.getDisplay(), "\\icons\\eclipse_icons\\up_nav(1).gif"));
+		
+		DragSource dragSource_4 = new DragSource(btnNewButton_3, DND.DROP_MOVE|DND.DROP_COPY);
+		dragSource_4.setTransfer(new Transfer[]{TextTransfer.getInstance()});
+		dragSource_4.addDragListener(new DragSourceListener(){
+
+			@Override
+			public void dragStart(DragSourceEvent event) {
+				// TODO Auto-generated method stub
+				if(btnNewButton_3.forceFocus()==false)
+				{
+					event.doit=false;
+					System.out.println("....... forceFocus false");
+				}
+				System.out.println("....... start");
+			}
+
+			@Override
+			public void dragSetData(DragSourceEvent event) {
+				// TODO Auto-generated method stub
+				if(TextTransfer.getInstance().isSupportedType(event.dataType))
+				{
+					event.data=btnNewButton_3.getData("value");
+					System.out.println("....... set value");
+				}
+			}
+
+			@Override
+			public void dragFinished(DragSourceEvent event) {
+				// TODO Auto-generated method stub
+				System.out.println("....... finished");
+			}});
+		
+		
+		
+		
 		
 		
 		TabItem item3=new TabItem(tabFolder,SWT.NONE);

@@ -14,6 +14,8 @@ import org.eclipse.swt.widgets.Shell;
 
 import cn.icesoft.shell.InitOptionPreference;
 
+import com.fengmanfei.util.ImageFactory;
+
 public class DataPlantMain {
 
 	protected Shell shell;
@@ -55,7 +57,7 @@ public class DataPlantMain {
 
 		Rectangle area = Display.getDefault().getClientArea();
 		shell = new Shell();
-		shell.setImage(display.getSystemImage(SWT.ICON_INFORMATION));
+		shell.setImage(ImageFactory.loadImage(display, "\\icons\\eclipse_icons\\import_brkpts_wizban.gif"));//import_brkpts_wizban.gif
 		shell.setLocation(0, 0);
 		shell.setSize(area.width, area.height);
 		shell.setText("智能数据平台");
