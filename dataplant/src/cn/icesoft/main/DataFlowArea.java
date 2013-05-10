@@ -29,9 +29,12 @@ import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.MessageBox;
+import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.ToolBar;
 import org.eclipse.swt.widgets.ToolItem;
 import org.eclipse.ui.forms.widgets.FormToolkit;
+
+import cn.icesoft.shell.ButtonSQLDialog;
 
 import com.fengmanfei.util.ImageFactory;
 
@@ -183,7 +186,7 @@ public class DataFlowArea extends Composite {
 					if(btnNewButton.getData("value").toString().split("\001").length==6)
 					{
 						
-						String[] contents=btnNewButton.getData("value").toString().split("\001")[5].split(" ");
+						String[] contents=btnNewButton.getData("value").toString().split("\001")[5].split("\002");
 						String[]  btnNewButtons=btnNewButton.getData("value").toString().split("\001");
 						btnNewButton.setData("value",btnNewButtons[0]+"\001"+
 								btnNewButtons[1]+"\001"+
@@ -203,9 +206,12 @@ public class DataFlowArea extends Composite {
 							else if(tmp.split(":").length==2&&tmp.split(":")[0].equals("recieveLineToObjectID"))
 							{
 								btnNewButton.setData("recieveLineToObjectID",tmp.split(":")[1]);
-								
-								
 							}
+							else if(tmp.split(":").length==2&&tmp.split(":")[0].equals("SQL"))
+							{
+								btnNewButton.setData("SQL",tmp.split(":")[1]);
+							}
+								
 							
 						}
 						//reflash link id
@@ -251,13 +257,19 @@ public class DataFlowArea extends Composite {
 						String tmp="";
 						if(btnNewButton.getData("recieveLineToObjectID")!=null)
 						{
-							tmp+="recieveLineToObjectID:"+btnNewButton.getData("recieveLineToObjectID").toString()+" ";
+							tmp+="recieveLineToObjectID:"+btnNewButton.getData("recieveLineToObjectID").toString()+"\002";
 							
 						}
 						if(btnNewButton.getData("sendLineToObjectID")!=null)
 						{
-							tmp+="sendLineToObjectID:"+btnNewButton.getData("sendLineToObjectID").toString()+" ";
+							tmp+="sendLineToObjectID:"+btnNewButton.getData("sendLineToObjectID").toString()+"\002";
 						}
+						if(btnNewButton.getData("SQL")!=null)
+						{
+							tmp+="SQL:"+btnNewButton.getData("SQL").toString()+"\002";
+						}
+						
+						
 						if(!tmp.equals(""))
 						{
 							firstcontent+="\001"+tmp.trim();
@@ -303,13 +315,9 @@ public class DataFlowArea extends Composite {
 							}
 							else
 							{
-								log.debug("begin draw line from "+((UUID)btnNewButton.getData("objectID")).toString()+"   to   "+linklist.getFirst().toString());
-								//设置个对象的  来源  与  发送 
-								
 								Control ctl_source;
 								Control ctl_target=btnNewButton;
-								
-								
+									
 								for(int i=0;i<composite.getChildren().length;i++)
 								{
 									Control ctl=composite.getChildren()[i];
@@ -338,23 +346,24 @@ public class DataFlowArea extends Composite {
 									}
 									log.debug("child detail...."+((UUID)ctl.getData("objectID")).toString());
 								}
-								
-								//开始绘图
-								
-								
+									
 								break;
 							}
-							
-							
+								
 						}
+						
+						linklist.clear();
 						
 						if(!painded&&status==100)
 						{
-							//根据按钮类型，创建不同的输入框，之后保存到对象的data里面
+							ButtonSQLDialog sqldialog=new ButtonSQLDialog(composite.getShell());
+							sqldialog.setButton(btnNewButton);
+							sqldialog.open();
+							log.debug("button get SQL :"+btnNewButton.getData("SQL"));
 						}
 						
 						
-						linklist.clear();
+						
 						
 					}
 
