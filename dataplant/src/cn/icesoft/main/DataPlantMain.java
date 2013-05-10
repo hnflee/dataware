@@ -71,14 +71,16 @@ public class DataPlantMain {
 		CBanner banner = new CBanner(shell, SWT.BORDER);
 		banner.setLayout(new FillLayout());
 
-		Composite dataflow = new DataFlowArea(banner, SWT.NONE);
-		Composite rightcomp = new RightComposite(banner, SWT.NONE);
-		Composite option = new OptionPlants(banner, SWT.NONE);
+		DataFlowArea dataflow = new DataFlowArea(banner, SWT.NONE);
+		RightComposite rightcomp = new RightComposite(banner, SWT.NONE);
+		OptionPlants option = new OptionPlants(banner, SWT.NONE);
 
 		banner.setLeft(dataflow);
 		banner.setRight(rightcomp);
 		banner.setBottom(option);
 
+		((DataFlowArea)dataflow).setRightcomp(rightcomp);
+		
 	}
 
 	/**

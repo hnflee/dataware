@@ -38,13 +38,23 @@ import cn.icesoft.shell.ButtonSQLDialog;
 
 import com.fengmanfei.util.ImageFactory;
 
+
+
 public class DataFlowArea extends Composite {
 	static Logger log = Logger.getLogger(DataFlowArea.class);//log4j的日志文件
 	Rectangle area = Display.getDefault().getClientArea();
 	private final FormToolkit formToolkit = new FormToolkit(Display.getDefault());
 	
 	private LinkedList<String> linklist = new LinkedList<String>();
-	
+	private RightComposite rightcomp_;
+	public RightComposite getRightcomp() {
+		return rightcomp_;
+	}
+
+	public void setRightcomp(RightComposite rightcomp) {
+		this.rightcomp_ = rightcomp;
+	}
+
 	/**
 	 * Create the composite.
 	 * @param parent
@@ -98,7 +108,8 @@ public class DataFlowArea extends Composite {
 				// TODO Auto-generated method stub
 				
 				log.debug("runItem  is select");
-				
+				//调用后台处理过程 ，获取返回值，同时送到 rightcomp用来展示进程状态和下载文件等操作
+				rightcomp_.setFromDataflow_(composite);
 			}
 
 			@Override
