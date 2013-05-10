@@ -19,13 +19,18 @@ import org.eclipse.swt.events.KeyEvent;
 import org.eclipse.swt.events.KeyListener;
 import org.eclipse.swt.events.MouseEvent;
 import org.eclipse.swt.events.MouseListener;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.graphics.GC;
 import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.MessageBox;
+import org.eclipse.swt.widgets.ToolBar;
+import org.eclipse.swt.widgets.ToolItem;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 
 import com.fengmanfei.util.ImageFactory;
@@ -53,6 +58,40 @@ public class DataFlowArea extends Composite {
 		
 		DropTarget dropTarget = new DropTarget(composite,DND.DROP_DEFAULT | DND.DROP_COPY);
 		dropTarget.setTransfer(new Transfer[]{TextTransfer.getInstance()});
+		
+		ToolBar toolBar = new ToolBar(composite, SWT.FLAT| SWT.RIGHT);
+		toolBar.setBounds(0, 0, 57, 25);
+		
+		formToolkit.adapt(toolBar);
+		formToolkit.paintBordersFor(toolBar);
+		
+		final ToolItem saveItem =new ToolItem(toolBar,SWT.PUSH);
+		saveItem.setText("保存");
+		saveItem.setImage(ImageFactory.loadImage(toolBar.getDisplay(), ImageFactory.SAVE_EDIT));
+		saveItem.addSelectionListener(new SelectionListener(){
+
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				// TODO Auto-generated method stub
+				
+				log.debug("SaveItem  is select");
+				
+			}
+
+			@Override
+			public void widgetDefaultSelected(SelectionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}});
+		
+		
+		
+		
+		Label label = new Label(composite, SWT.SEPARATOR | SWT.HORIZONTAL);
+		label.setBounds(0, 27, (int)(area.width*0.7), 2);
+		formToolkit.adapt(label, true, true);
+		
+		
 		
 	
 		
@@ -231,15 +270,10 @@ public class DataFlowArea extends Composite {
 					@Override
 					public void mouseDoubleClick(MouseEvent e) {
 						// TODO Auto-generated method stub
-						if(selectObjectUUId.equals(""))
-						{
-							MessageBox messageBox =
-								    new MessageBox(composite.getShell(),SWT.ICON_WARNING);
-								messageBox.setMessage("www.korayguclu.de");
-								messageBox.open(); 
-						}
 						
 						log.debug("mouseDoubleClick selectObjectUUId:"+selectObjectUUId);
+						int status=100;
+						boolean painded=false;
 						
 						while(linklist.isEmpty()==false)
 						{
@@ -260,15 +294,26 @@ public class DataFlowArea extends Composite {
 								for(int i=0;i<composite.getChildren().length;i++)
 								{
 									Control ctl=composite.getChildren()[i];
-									if(((UUID)ctl.getData("objectID")).toString().equals(linklist.getFirst().toString()))
+									if(ctl.getData("objectID")==null)continue;
+									
+									if(ctl.getData("objectID")!=null&&((UUID)ctl.getData("objectID")).toString().equals(linklist.getFirst().toString()))
 									{
 										ctl_source=ctl;
+										if(ctl_source.getData("sendLineToObjectID")!=null)
+										{
+											status=101;
+											MessageBox messageBox =
+												    new MessageBox(composite.getShell(),SWT.ICON_WARNING);
+												messageBox.setMessage("此版本暂不支持源控件链接1个以上目标控件");
+												messageBox.open(); 
+												break;
+										}
 										ctl_source.setData("sendLineToObjectID",btnNewButton.getData("objectID"));
 										ctl_target.setData("recieveLineToObjectID",ctl_source.getData("objectID"));
 										
 										gc.setLineWidth(2);
 										paintk(gc,ctl_source.getBounds().x+108,ctl_source.getBounds().y+31,ctl_target.getBounds().x,ctl_target.getBounds().y+31);
-										
+										painded=true;
 										
 										break;
 									}
@@ -282,6 +327,14 @@ public class DataFlowArea extends Composite {
 							}
 							
 							
+						}
+						
+						if(!painded&&status==100)
+						{
+							MessageBox messageBox =
+								    new MessageBox(composite.getShell(),SWT.ICON_WARNING);
+								messageBox.setMessage("没有发现源控件，请先单击源控件。");
+								messageBox.open(); 
 						}
 						
 						
@@ -313,6 +366,22 @@ public class DataFlowArea extends Composite {
 						// TODO Auto-generated method stub
 						if(e.keyCode==127)//delete key
 						{
+							
+							String tmpid=((UUID)btnNewButton.getData("objectID")).toString();
+							
+							for(int i=0;i<composite.getChildren().length;i++)
+							{
+								Control ctl_source=composite.getChildren()[i];
+								if(ctl_source.getData("sendLineToObjectID")!=null&&!(ctl_source.getData("sendLineToObjectID")).toString().equals(tmpid))
+								{
+									ctl_source.setData("sendLineToObjectID",null);
+								}
+								if(ctl_source.getData("recieveLineToObjectID")!=null&&!(ctl_source.getData("recieveLineToObjectID")).toString().equals(tmpid))
+								{
+									ctl_source.setData("recieveLineToObjectID",null);
+								}
+							}
+							
 							btnNewButton.dispose();
 						}
 					}
@@ -378,7 +447,7 @@ public class DataFlowArea extends Composite {
 				
 					
 				}
-				log.debug("child detail...."+((UUID)ctl_source.getData("objectID")).toString());
+				
 			}
 	}
 
