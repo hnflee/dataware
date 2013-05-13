@@ -25,7 +25,7 @@ public class SendMain {
 		
 		   
 		JmsTemplate jmsTemplate = (JmsTemplate) context.getBean("jmsTemplate");
-        Destination destination = (Destination) context.getBean("destination");
+        Destination destination = (Destination) context.getBean("destination_DataMessageCore");
         for (int i = 1; i < 10; i++) {
         	MessageCreator mc = new DataMessageCreator("test "+i);//
             jmsTemplate.send(destination, mc);

@@ -11,7 +11,7 @@
             <ref bean="connectionFactory"/>
         </property>
     </bean>
-    <bean id="destination" class="org.apache.activemq.command.ActiveMQQueue">
+    <bean id="destination_DataMessageCore" class="org.apache.activemq.command.ActiveMQQueue">
         <constructor-arg index="0">
             <value>DataMessageCore</value>
         </constructor-arg>
