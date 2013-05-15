@@ -1,8 +1,12 @@
 package cn.icesoft.main;
 
 import org.apache.log4j.Logger;
+import org.eclipse.jface.text.Document;
+import org.eclipse.jface.text.TextViewer;
 import org.eclipse.jface.viewers.TableTreeViewer;
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.browser.Browser;
+import org.eclipse.swt.custom.StyledText;
 import org.eclipse.swt.custom.TableTree;
 import org.eclipse.swt.events.FocusEvent;
 import org.eclipse.swt.events.FocusListener;
@@ -14,23 +18,26 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.TabFolder;
 import org.eclipse.swt.widgets.TabItem;
+import org.eclipse.swt.widgets.Text;
 
 public class RightComposite extends Composite {
 	static Logger log = Logger.getLogger(RightComposite.class);//log4j的日志文件
 	Rectangle area = Display.getDefault().getClientArea();
 	private TableTree tableTree;
-	Object fromDataflow_;
+	private Browser browser;
 	
-	public Object getFromDataflow_() {
-		return fromDataflow_;
+	public Browser getBrowser() {
+		return browser;
 	}
 
-	public void setFromDataflow_(Object fromDataflow) {
-		this.fromDataflow_ = fromDataflow;
-		tableTree.forceFocus();
-		log.debug("setFromDataflow_....");
+	public void setBrowser(Browser browser) {
+		this.browser = browser;
 	}
 
+	String messageFromMina_;
+
+
+	
 	/**
 	 * Create the composite.
 	 * @param parent
@@ -58,6 +65,19 @@ public class RightComposite extends Composite {
 		TableTreeViewer tableTreeViewer = new TableTreeViewer(composite, SWT.BORDER | SWT.FULL_SELECTION);
 		tableTree = tableTreeViewer.getTableTree();
 		tableTree.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 1, 1));
+		
+		TabItem tbtmNewItem_1 = new TabItem(tabFolder, SWT.NONE);
+		tbtmNewItem_1.setText("数据下载");
+		
+		browser = new Browser(tabFolder, SWT.NONE);
+		tbtmNewItem_1.setControl(browser);
+		
+		
+		
+		
+		
+		
+		
 		tableTree.addFocusListener(new FocusListener(){
 
 			@Override

@@ -80,6 +80,7 @@ public class DataPlantMain {
 		banner.setBottom(option);
 
 		((DataFlowArea)dataflow).setRightcomp(rightcomp);
+		((DataFlowArea)dataflow).setOptionPlants_(option);
 		
 	}
 

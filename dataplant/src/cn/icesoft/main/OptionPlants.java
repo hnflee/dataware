@@ -2,6 +2,7 @@ package cn.icesoft.main;
 
 import org.apache.log4j.Logger;
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.custom.StyledText;
 import org.eclipse.swt.dnd.DND;
 import org.eclipse.swt.dnd.DragSource;
 import org.eclipse.swt.dnd.DragSourceEvent;
@@ -17,6 +18,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.TabFolder;
 import org.eclipse.swt.widgets.TabItem;
+import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.widgets.ToolBar;
 import org.eclipse.swt.widgets.ToolItem;
 
@@ -26,6 +28,15 @@ import com.fengmanfei.util.ImageFactory;
 public class OptionPlants extends Composite {
 	Rectangle area = Display.getDefault().getClientArea();
 	static Logger log = Logger.getLogger(OptionPlants.class);//log4j的日志文件
+	private StyledText textConsole;
+	public StyledText getTextConsole() {
+		return textConsole;
+	}
+
+	public void setTextConsole(StyledText textConsole) {
+		this.textConsole = textConsole;
+	}
+
 	/**
 	 * Create the composite.
 	 * @param parent
@@ -248,11 +259,16 @@ public class OptionPlants extends Composite {
 		TabItem item4=new TabItem(tabFolder,SWT.NONE);
 		item4.setText("控制台");
 		
+		textConsole = new StyledText(tabFolder, SWT.BORDER|SWT.MULTI| SWT.WRAP|SWT.H_SCROLL|SWT.V_SCROLL);
+		
+		textConsole.setWordWrap(true);
+		item4.setControl(textConsole);
+		
 
 		tabFolder.pack();
 		
 	}
-
+	
 	@Override
 	protected void checkSubclass() {
 		// Disable the check that prevents subclassing of SWT components
