@@ -1,43 +1,40 @@
 package cn.icesoft;
 
 import javax.jms.JMSException;
-import javax.jms.MapMessage;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
 import org.apache.log4j.Logger;
 
+import cn.icesoft.process.RecieveDill;
+
 public class DataMessageListener implements MessageListener {
-	static Logger log = Logger.getLogger(DataMessageListener.class);//log4j的日志文件
+	static Logger log = Logger.getLogger(DataMessageListener.class);//
+
 	@Override
 	public void onMessage(Message arg0) {
 		// TODO Auto-generated method stub
-	    try {
+		try {
 
-            if (arg0 instanceof TextMessage) {
+			if (arg0 instanceof TextMessage) {
 
-            	 log.debug("coming in listener"+((TextMessage)arg0).getText().toString());
+				log.debug("coming in listener"
+						+ ((TextMessage) arg0).getText().toString());
+				new RecieveDill(arg0).process();
+				
+				
+			} else {
 
-            } else if (arg0 instanceof MapMessage) {
+				throw new IllegalStateException("Message Type Not Supported");
 
-                       MapMessage mmsg = (MapMessage)arg0;
+			}
 
-                
+		} catch (JMSException e) {
 
-            } else {
+			e.printStackTrace();
 
-                       throw new IllegalStateException("Message Type Not Supported");
-
-            }
-
-                  } catch (JMSException e) {
-
-                           e.printStackTrace();
-
-                  }
+		}
 	}
-
-	
 
 }

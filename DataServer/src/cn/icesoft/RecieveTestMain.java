@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jms.core.JmsTemplate;
 
 public class RecieveTestMain {
-	static Logger log = Logger.getLogger(RecieveTestMain.class);//log4j的日志文件
+	static Logger log = Logger.getLogger(RecieveTestMain.class);//
 	/**
 	 * @param args
 	 */
