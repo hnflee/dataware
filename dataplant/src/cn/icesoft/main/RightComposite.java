@@ -23,7 +23,7 @@ import org.eclipse.swt.widgets.Text;
 public class RightComposite extends Composite {
 	static Logger log = Logger.getLogger(RightComposite.class);//log4j的日志文件
 	Rectangle area = Display.getDefault().getClientArea();
-	private TableTree tableTree;
+	
 	private Browser browser;
 	
 	public Browser getBrowser() {
@@ -55,42 +55,12 @@ public class RightComposite extends Composite {
 		tabFolder.setLocation(0, 0);
 		tabFolder.setLayout(new FillLayout());
 		
-		TabItem tabItem = new TabItem(tabFolder, SWT.NONE);
-		tabItem.setText("执行过程");
-		
-		Composite composite = new Composite(tabFolder, SWT.NONE);
-		tabItem.setControl(composite);
-		composite.setLayout(new GridLayout(1, false));
-		
-		TableTreeViewer tableTreeViewer = new TableTreeViewer(composite, SWT.BORDER | SWT.FULL_SELECTION);
-		tableTree = tableTreeViewer.getTableTree();
-		tableTree.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 1, 1));
-		
 		TabItem tbtmNewItem_1 = new TabItem(tabFolder, SWT.NONE);
 		tbtmNewItem_1.setText("数据下载");
 		
 		browser = new Browser(tabFolder, SWT.NONE);
 		tbtmNewItem_1.setControl(browser);
 		
-		
-		
-		
-		
-		
-		
-		tableTree.addFocusListener(new FocusListener(){
-
-			@Override
-			public void focusGained(FocusEvent e) {
-				// TODO Auto-generated method stub
-				log.debug("coming in FocusListener");
-			}
-
-			@Override
-			public void focusLost(FocusEvent e) {
-				// TODO Auto-generated method stub
-				
-			}});
 
 			
 	}

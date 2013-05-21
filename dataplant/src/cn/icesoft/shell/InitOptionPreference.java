@@ -23,7 +23,10 @@ public class InitOptionPreference {
 		
 		PreferenceStore prestore=new PreferenceStore("options.properties");
 		PreferenceNode nodeOne=new PreferenceNode("TCP SERVER","TCP SERVER",null,SystemSettingPage.class.getName());
+		PreferenceNode nodeOne1=new PreferenceNode("关于我们","易建科技",null,AboutPropertyPage.class.getName());
+		
 		manager.addToRoot(nodeOne);
+		manager.addToRoot(nodeOne1);
 		PreferenceDialog dlg=new PreferenceDialog(null,manager);
 		
 		prestore.addPropertyChangeListener( new IPropertyChangeListener()

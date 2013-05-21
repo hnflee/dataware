@@ -1,7 +1,6 @@
 package cn.icesoft.main;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -15,6 +14,7 @@ import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.Shell;
+
 
 import cn.icesoft.shell.InitOptionPreference;
 
@@ -130,7 +130,14 @@ public class DataPlantMain {
 		}
 
 		);
+		
 		option.setMenu(optionMenu);
+		
+		
+		
+		
+		
+		
 
 		return main;
 	}
