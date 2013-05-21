@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans> 
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL">
+            <value>tcp://10.71.84.233:61616?wireFormat.maxInactivityDuration=0</value>
+        </property>
+        
+        
+    </bean>
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory">
+            <ref bean="connectionFactory"/>
+        </property>
+    </bean>
+    <bean id="destination_DataMessageCore" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg index="0">
+            <value>DataMessageCore</value>
+        </constructor-arg>
+    </bean>
+    <bean class="org.springframework.jms.listener.SimpleMessageListenerContainer">
+		<property name="connectionFactory" ref="connectionFactory"/>
+		<property name="destination" ref="destination_DataMessageCore"/>
+		<property name="concurrentConsumers" value="10"/>
+		<property name="messageListener" ref="data_messageListener"/>
+	</bean>
+    <bean id="data_messageListener" class="cn.icesoft.DataMessageListener" />
+    
+</beans>
