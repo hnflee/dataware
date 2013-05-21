@@ -168,7 +168,7 @@ public class RecieveDill {
 				}
 
 				break;
-			} catch (IOException | InterruptedException e) {
+			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				try {
@@ -178,6 +178,9 @@ public class RecieveDill {
 					e1.printStackTrace();
 				}
 			} catch (JMSException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}

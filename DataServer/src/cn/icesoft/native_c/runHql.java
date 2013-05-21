@@ -9,6 +9,7 @@ public class runHql {
 	
 	public native static void run(String hql,String uuid);
 	
+	public native static void runCMD(String cmd);
 	
 
 }

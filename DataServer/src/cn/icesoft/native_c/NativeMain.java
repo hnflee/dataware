@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
@@ -22,100 +24,115 @@ public class NativeMain {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		UUID uuid_ = UUID.randomUUID();
+		String fileName="bbf5b1e7-0825-43c7-ae34-2b0a809cc564";
+		try {
+			String datafile = "/opt/hadoop/tomcat/apache-tomcat-6.0.37/webapps/ROOT/";
+			runcmd("cp /opt/hadoop/"+fileName+" "+datafile+fileName);
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	protected static void runcmd(String cmd_)
+	{
+		
+
 		runHql runobj = new runHql();
-		/*runobj.run(
-				"select t.tkt_nm, t.flight_seg, t.market_fare, t.net_fare, t.source from et_prd.rt_et_sales_report t where t.airline_3code = '898' and t.airline_2code = 'JD' and t.trans_type = 'NORMAL' and t.flight_date between '2013-06-01' and '2013-06-30' and t.product_code = 'WZZX'",
-				uuid_.toString());*/
+		runobj.runCMD(cmd_);
+	}
+	private static List readHql(String fileName) throws IOException {
+		// TODO Auto-generated method stub
+		List<String> params = new ArrayList();
+		RandomAccessFile rddata = new RandomAccessFile("/opt/hadoop/"
+				+ fileName + "_explain", "r");
+		rddata.seek(0);
 
-		while (true) {
-			try {
-				RandomAccessFile rd = new RandomAccessFile("/opt/hadoop/"
-						+ "96efe439-65d5-47be-9a8a-e80baf1c8611" + "_console", "r");
+		String dataline;
+		int open = 1;
+		int operate=1;
+		
+		while ((dataline = rddata.readLine()) != null) {
+			System.out.println(dataline);
+			if (dataline.indexOf("Select Operator") != -1) {
+				operate = 0;
+				continue;
+			}//Select Operator
+			
+			if (operate==0&&dataline.indexOf("expressions:") != -1) {
+				open = 0;
+				continue;
+			}
+			if (open==0&&dataline.indexOf("outputColumnNames:") != -1) {
+				break;
+			}
 
-				while (true) {
-					rd.seek(postion);
-					String temp;
-					String lastcontent = "";
-					while ((temp = rd.readLine()) != null) {// 逐行读取该文件，如果定位到文件中一行的中间，则只读取从定位的位置开始的后半部分
-						// temp = new String(temp.getBytes("8859_1"),
-						// "gb2312");//转变编码格式：不进行转换的话读出的中文显示为乱码，很令人头疼的
-						System.out.println("content:" + temp);
-						System.out.println("postion:" + rd.getFilePointer());
-						postion = rd.getFilePointer();
-
-						lastcontent = temp;
-					}
-
-					if (lastcontent != null
-							&& (lastcontent.indexOf("Time taken:") != -1)) {
-						System.out.println("lastcontent:" + lastcontent);
-						status = 0;
-						break;
-					}
-					Thread.sleep(2000);
-				}
-
-				if (status == 0) {
-					// begin recreate datafile to excel
-					RandomAccessFile rddata = new RandomAccessFile(
-							"/opt/hadoop/96efe439-65d5-47be-9a8a-e80baf1c8611", "r");
-					rddata.seek(0);
-
-					
-
-					HSSFWorkbook wb = new HSSFWorkbook();
-					HSSFSheet sheet = wb.createSheet();
-					
-
-					
-					String dataline;
-					int lines=0;
-					while ((dataline = rddata.readLine()) != null) {// 逐行读取该文件，如果定位到文件中一行的中间，则只读取从定位的位置开始的后半部分
-						// temp = new String(temp.getBytes("8859_1"),
-						// "gb2312");//转变编码格式：不进行转换的话读出的中文显示为乱码，很令人头疼的
-						System.out.println("content:" + dataline);
-						HSSFRow row = sheet.createRow(lines);
-						String dataTmp[]=dataline.split("\t");
-						for(int i=0;i<dataTmp.length;i++)
-						{
-							HSSFCell cell = row.createCell((short) i);
-							cell.setCellValue(dataTmp[i]);
-						}
-						lines++;
-					}
-					
-					
-					
-					
-					
-					
-
-					// Write the output to a file
-
-					FileOutputStream fileOut = new FileOutputStream(
-							"/opt/hadoop/96efe439-65d5-47be-9a8a-e80baf1c8611.xls");
-
-					wb.write(fileOut);
-
-					fileOut.close();
-
-					break;
-				}
-
-			} catch (IOException | InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-				try {
-					Thread.sleep(10000);
-				} catch (InterruptedException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+			if (open == 0) {
+				params.add(dataline.split(":")[1]);
 			}
 
 		}
 
+		rddata.close();
+		// Write the output to a file
+
+		return params;
+	}
+
+	private static int writeExcel(List listconlume, String fileName) {
+		int status = 1;
+		RandomAccessFile rddata;
+		try {
+			rddata = new RandomAccessFile("/opt/hadoop/" + fileName, "r");
+
+			rddata.seek(0);
+
+			HSSFWorkbook wb = new HSSFWorkbook();
+			HSSFSheet sheet = wb.createSheet();
+
+			String dataline;
+			int lines = 0;
+			while ((dataline = rddata.readLine()) != null) {
+
+				HSSFRow row = sheet.createRow(lines);
+				String dataTmp[] = dataline.split("\t");
+				for (int i = 0; i < dataTmp.length; i++) {
+					HSSFCell cell = row.createCell(i);
+					if (listconlume.get(i * 2 + 1).toString().trim()
+							.equals("string")) {
+						cell.setCellType(HSSFCell.CELL_TYPE_STRING);
+						cell.setCellValue(new String(dataTmp[i]
+								.getBytes("iso-8859-1"), "UTF-8"));
+					} else if (listconlume.get(i * 2 + 1).toString().trim()
+							.equals("double")) {
+						cell.setCellValue(Double.parseDouble(dataTmp[i]));
+
+					} else if (listconlume.get(i * 2 + 1).toString().trim()
+							.equals("bigint")) {
+						cell.setCellValue(Integer.parseInt(dataTmp[i]));
+
+					}
+
+				}
+				lines++;
+			}
+
+			rddata.close();
+			// Write the output to a file
+
+			FileOutputStream fileOut = new FileOutputStream(
+					"/opt/hadoop/"
+							+ fileName + ".xls");
+			wb.write(fileOut);
+			fileOut.close();
+			status = 0;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			status=1;
+		}
+		return status;
 	}
 
 }
