@@ -17,7 +17,7 @@ import org.apache.mina.transport.socket.nio.NioSocketConnector;
 public class MinaSend {
 	private static Logger logger = Logger.getLogger(MinaSend.class);
 	private static int PORT = 58585;
-	private static String HOST = "10.21.11.238";
+	private static String HOST = "10.21.52.64";
 	
 	/**
 	 * @param args

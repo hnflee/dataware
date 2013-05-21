@@ -1,10 +1,14 @@
 package cn.icesoft.main;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.CBanner;
 import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.layout.FillLayout;
-import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Listener;
@@ -28,6 +32,7 @@ public class DataPlantMain {
 	 */
 	public static void main(String[] args) {
 		try {
+			
 			DataPlantMain window = new DataPlantMain();
 			window.open();
 		} catch (Exception e) {
@@ -55,6 +60,18 @@ public class DataPlantMain {
 	 */
 	protected void createContents() {
 
+		Properties prop = new Properties();// 属性集合对象    
+        FileInputStream fis;
+		try {
+			fis = new FileInputStream("options.properties");
+			prop.load(fis);// 将属性文件流装载到Properties对象中    
+		    fis.close();// 关闭流    
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}// 属性文件输入流    
+      
+		
 		Rectangle area = Display.getDefault().getClientArea();
 		shell = new Shell();
 		shell.setImage(ImageFactory.loadImage(display, "\\icons\\eclipse_icons\\import_brkpts_wizban.gif"));//import_brkpts_wizban.gif
@@ -72,6 +89,8 @@ public class DataPlantMain {
 		banner.setLayout(new FillLayout());
 
 		DataFlowArea dataflow = new DataFlowArea(banner, SWT.NONE);
+		dataflow.setPORT(Integer.parseInt(prop.getProperty("hiveserver_port")));
+		dataflow.setHOST(prop.getProperty("hiveserver_ip"));
 		RightComposite rightcomp = new RightComposite(banner, SWT.NONE);
 		OptionPlants option = new OptionPlants(banner, SWT.NONE);
 

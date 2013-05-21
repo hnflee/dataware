@@ -22,7 +22,7 @@ public class InitOptionPreference {
 		PreferenceManager manager=new PreferenceManager();
 		
 		PreferenceStore prestore=new PreferenceStore("options.properties");
-		PreferenceNode nodeOne=new PreferenceNode("hive server","hive server",null,SystemSettingPage.class.getName());
+		PreferenceNode nodeOne=new PreferenceNode("TCP SERVER","TCP SERVER",null,SystemSettingPage.class.getName());
 		manager.addToRoot(nodeOne);
 		PreferenceDialog dlg=new PreferenceDialog(null,manager);
 		

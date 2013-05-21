@@ -66,8 +66,8 @@ public class OptionPlants extends Composite {
 		
 		final Button btnNewButton = new Button(composite, SWT.NONE);
 		btnNewButton.setBounds(10, 81, 108, 63);
-		btnNewButton.setText("hadoop源(UAT)");
-		btnNewButton.setData("value", "1\001S\001hadoop源(UAT)\001H\00110.71.84.233,10000");
+		btnNewButton.setText("hadoop源");
+		btnNewButton.setData("value", "1\001S\001hadoop源\001H\00110.71.84.233,10000");
 		btnNewButton.setImage(ImageFactory.loadImage(composite.getDisplay(), "\\icons\\eclipse_icons\\memory_view.gif"));
 		//ImageFactory.loadImage(composite.getDisplay(), "\\icons\\eclipse_icons\\memory_view.gif.gif")
 		
@@ -105,43 +105,7 @@ public class OptionPlants extends Composite {
 		
 		
 		
-		final Button btnNewButton_1 = new Button(composite, SWT.NONE);
-		btnNewButton_1.setBounds(124, 81, 113, 63);
-		btnNewButton_1.setText("oracle源");
 		
-		btnNewButton_1.setData("value", "1\001S\001oracle源\001O\00110.71.84.233,10000");
-		
-		DragSource dragSource_1 = new DragSource(btnNewButton_1, DND.DROP_MOVE|DND.DROP_COPY);
-		
-		dragSource_1.setTransfer(new Transfer[]{TextTransfer.getInstance()});
-		dragSource_1.addDragListener(new DragSourceListener(){
-
-			@Override
-			public void dragStart(DragSourceEvent event) {
-				// TODO Auto-generated method stub
-				if(btnNewButton_1.forceFocus()==false)
-				{
-					event.doit=false;
-					log.debug("....... forceFocus false");
-				}
-				log.debug("....... start");
-			}
-
-			@Override
-			public void dragSetData(DragSourceEvent event) {
-				// TODO Auto-generated method stub
-				if(TextTransfer.getInstance().isSupportedType(event.dataType))
-				{
-					event.data=btnNewButton_1.getData("value");
-					log.debug("....... set value");
-				}
-			}
-
-			@Override
-			public void dragFinished(DragSourceEvent event) {
-				// TODO Auto-generated method stub
-				log.debug("....... finished");
-			}});
 		
 		
 		ToolBar toolBar = new ToolBar(composite, SWT.FLAT | SWT.RIGHT);
@@ -253,8 +217,8 @@ public class OptionPlants extends Composite {
 		
 		
 		
-		TabItem item3=new TabItem(tabFolder,SWT.NONE);
-		item3.setText("图形化");
+		//TabItem item3=new TabItem(tabFolder,SWT.NONE);
+		//item3.setText("图形化");
 		
 		TabItem item4=new TabItem(tabFolder,SWT.NONE);
 		item4.setText("控制台");
@@ -263,6 +227,7 @@ public class OptionPlants extends Composite {
 		
 		textConsole.setWordWrap(true);
 		item4.setControl(textConsole);
+	
 		
 
 		tabFolder.pack();

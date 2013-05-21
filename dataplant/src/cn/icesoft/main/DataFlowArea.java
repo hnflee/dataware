@@ -14,6 +14,7 @@ import org.apache.mina.filter.codec.ProtocolCodecFilter;
 import org.apache.mina.filter.codec.textline.LineDelimiter;
 import org.apache.mina.filter.codec.textline.TextLineCodecFactory;
 import org.apache.mina.transport.socket.nio.NioSocketConnector;
+import org.eclipse.jface.preference.PreferenceStore;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.dnd.DND;
 import org.eclipse.swt.dnd.DragSource;
@@ -38,20 +39,36 @@ import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.MessageBox;
-import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.ToolBar;
 import org.eclipse.swt.widgets.ToolItem;
 import org.eclipse.ui.forms.widgets.FormToolkit;
-
 import cn.icesoft.mina.IcesoftClientHandler;
-import cn.icesoft.mina.MinaSend;
 import cn.icesoft.shell.ButtonSQLDialog;
-
 import com.fengmanfei.util.ImageFactory;
 
 
 
 public class DataFlowArea extends Composite {
+	private static int PORT = 0;
+	public static int getPORT() {
+		return PORT;
+	}
+
+	public static void setPORT(int pORT) {
+		PORT = pORT;
+	}
+
+	private static String HOST = "";
+	public static String getHOST() {
+		return HOST;
+	}
+
+	public static void setHOST(String hOST) {
+		HOST = hOST;
+	}
+
+	PreferenceStore prestore=new PreferenceStore("options.properties");
+	
 	static Logger log = Logger.getLogger(DataFlowArea.class);//log4j的日志文件
 	Rectangle area = Display.getDefault().getClientArea();
 	private final FormToolkit formToolkit = new FormToolkit(Display.getDefault());
@@ -68,8 +85,7 @@ public class DataFlowArea extends Composite {
 		this.optionPlants_ = optionPlants_;
 	}
 
-	private static int PORT = 58585;
-	private static String HOST = "10.21.11.238";
+
 	
 	
 	public RightComposite getRightcomp() {
@@ -103,25 +119,6 @@ public class DataFlowArea extends Composite {
 		formToolkit.adapt(toolBar);
 		formToolkit.paintBordersFor(toolBar);
 		
-		final ToolItem saveItem =new ToolItem(toolBar,SWT.PUSH);
-		saveItem.setText("保存");
-		saveItem.setImage(ImageFactory.loadImage(toolBar.getDisplay(), ImageFactory.SAVE_EDIT));
-		saveItem.addSelectionListener(new SelectionListener(){
-
-			@Override
-			public void widgetSelected(SelectionEvent e) {
-				// TODO Auto-generated method stub
-				
-				log.debug("SaveItem  is select");
-				
-			}
-
-			@Override
-			public void widgetDefaultSelected(SelectionEvent e) {
-				// TODO Auto-generated method stub
-				
-			}});
-		
 		
 		final ToolItem runItem =new ToolItem(toolBar,SWT.PUSH);
 		runItem.setText("执行");
@@ -133,6 +130,30 @@ public class DataFlowArea extends Composite {
 				// TODO Auto-generated method stub
 				runItem.setEnabled(false);
 				log.debug("runItem  is select and create new Thread");
+				
+				//获取hql语句
+				
+				Control hivectrol= getObjectFromCompsite(  composite,"Hive Hql");
+				if(hivectrol==null)
+				{
+					MessageBox messageBox =
+						    new MessageBox(composite.getShell(),SWT.ICON_WARNING);
+						messageBox.setMessage("没有发现HQL控件,请添加HQl控件!");
+						messageBox.open(); 
+						runItem.setEnabled(true);
+						return;
+				}
+				else if(hivectrol.getData("SQL")==null||hivectrol.getData("SQL").toString().equals(""))
+				{
+					MessageBox messageBox =
+						    new MessageBox(composite.getShell(),SWT.ICON_WARNING);
+						messageBox.setMessage("HQL控件的SQL语句为空");
+						messageBox.open();
+						runItem.setEnabled(true);
+						return;
+				}	
+				final String hql=hivectrol.getData("SQL").toString();
+				
 				Runnable runnable1=new Runnable(){
 
 					@Override
@@ -159,19 +180,32 @@ public class DataFlowArea extends Composite {
 							future.awaitUninterruptibly();// 等待连接创建完成
 							session = future.getSession();// 获得session
 							UUID uuid_ = UUID.randomUUID();
-							session.write("1010000000select t.tkt_nm, t.airline_3code, t.flight_nm, t.flight_date, t.flight_seg, t.cabin_code, t.market_fare, t.net_fare, t.agent_fee_rate, t.agent_fee, t.sp_fee_rate, t.sp_fee, t.insurance, t.agt_payment_amount, t.airport_tax, t.fuel_tax, t.booking_office_code, t.agent_name_cn, t.payment_no, t.order_no, t.pnr_nm, t.booking_date, t.issue_date, t.user_type, t.loginid, t.passenger_id, t.agt_payment_partner, t.product_code, t.source from et_prd.rt_et_sales_report t where t.airline_3code = '826' and t.airline_2code = 'GS' and t.trans_type = 'NORMAL' and t.issue_date between '2013-04-01' and '2013-05-14' and t.source in ('GQ', 'GC', 'GX', 'GT')\001"+uuid_.toString());// 发送消息
+							session.write("1010000000"+hql+"\001"+uuid_.toString());// 发送消息
 							
 						} catch (Exception ex) {
 							log.error("客户端链接异常...", ex);
 						}
 
 						session.getCloseFuture().awaitUninterruptibly();// 等待连接断开
+						
 						connector.dispose();
+						
+						optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+							@Override
+							public void run() {
+								// TODO Auto-generated method stub
+								runItem.setEnabled(true);
+								
+							}
+
+						
+						});	
 						
 					}};
 				
 					new Thread(runnable1).start();
-					runItem.setEnabled(true);
+					
 			}
 
 			@Override
@@ -515,6 +549,25 @@ public class DataFlowArea extends Composite {
 		
 	}
 
+	private Control getObjectFromCompsite( Composite composite,String objectID)
+	{
+		
+		for(int i=0;i<composite.getChildren().length;i++)
+		{
+			Control ctl_source=composite.getChildren()[i];
+			if(ctl_source.getData("value")!=null&&!(ctl_source.getData("value")).toString().equals(""))
+			{
+				if(ctl_source.getData("value").toString().indexOf(objectID)!=-1)
+				{
+					return ctl_source;
+				}
+				
+			}
+		}
+		return null;
+	}
+	
+	
 	private void relink(GC gc, Composite composite) {
 		
 			

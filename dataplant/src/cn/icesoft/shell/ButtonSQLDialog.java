@@ -13,6 +13,7 @@ import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.Shell;
 
 public class ButtonSQLDialog extends Dialog {
@@ -45,7 +46,7 @@ public class ButtonSQLDialog extends Dialog {
 	 */
 	@Override
 	protected Control createDialogArea(Composite parent) {
-		parent.getShell().setText("SQL编辑器");
+		parent.getShell().setText("SQL编辑器 v0.1");
 		
 		Composite container = (Composite) super.createDialogArea(parent);
 		new Label(container, SWT.NONE);
@@ -91,6 +92,15 @@ public class ButtonSQLDialog extends Dialog {
 	        if (buttonId == IDialogConstants.OK_ID)
 	        {
 	        	button_.setData("SQL",document_.get());
+	        	
+	        	if(document_.get()!=null&&document_.get().toLowerCase().indexOf("delete")!=-1)
+	        	{
+	        		MessageBox messageBox =
+						    new MessageBox(this.getShell(),SWT.ICON_WARNING);
+						messageBox.setMessage("SQl语句中不能包含'delete'关键字!");
+						messageBox.open(); 
+	        	}
+	        	
 	        	log.debug("对话框输入的内容内容："+document_.get());
 	        }
 	        super.buttonPressed(buttonId);
