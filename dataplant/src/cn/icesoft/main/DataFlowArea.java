@@ -1,19 +1,21 @@
 package cn.icesoft.main;
 
 
-import java.net.InetSocketAddress;
-import java.nio.charset.Charset;
 import java.util.LinkedList;
 import java.util.UUID;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
+
 
 import org.apache.log4j.Logger;
-import org.apache.mina.core.future.ConnectFuture;
-import org.apache.mina.core.service.IoConnector;
-import org.apache.mina.core.session.IoSession;
-import org.apache.mina.filter.codec.ProtocolCodecFilter;
-import org.apache.mina.filter.codec.textline.LineDelimiter;
-import org.apache.mina.filter.codec.textline.TextLineCodecFactory;
-import org.apache.mina.transport.socket.nio.NioSocketConnector;
 import org.eclipse.jface.preference.PreferenceStore;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.dnd.DND;
@@ -42,8 +44,8 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.ToolBar;
 import org.eclipse.swt.widgets.ToolItem;
 import org.eclipse.ui.forms.widgets.FormToolkit;
-import cn.icesoft.mina.IcesoftClientHandler;
 import cn.icesoft.shell.ButtonSQLDialog;
+
 import com.fengmanfei.util.ImageFactory;
 
 
@@ -153,42 +155,38 @@ public class DataFlowArea extends Composite {
 						return;
 				}	
 				final String hql=hivectrol.getData("SQL").toString();
-				
+				final String messageCorrelationID = UUID.randomUUID().toString();
 				Runnable runnable1=new Runnable(){
 
 					@Override
 					public void run() {
 						// TODO Auto-generated method stub
-						IoConnector connector = new NioSocketConnector();
-						// 设置链接超时时间
-						connector.setConnectTimeout(30000);
-						// 添加过滤器
-						connector.getFilterChain().addLast(
-								"codec",
-								new ProtocolCodecFilter(new TextLineCodecFactory(Charset
-										.forName("UTF-8"), LineDelimiter.WINDOWS.getValue(),
-										LineDelimiter.WINDOWS.getValue())));
-						// 添加业务逻辑处理器类
-						IcesoftClientHandler hadler=new IcesoftClientHandler();
-						hadler.setRightomp(rightcomp_);
-						hadler.setOptionPlants_(optionPlants_);
-						connector.setHandler(hadler);
-						IoSession session = null;
-						try {
-							ConnectFuture future = connector.connect(new InetSocketAddress(
-									HOST, PORT));// 创建连接
-							future.awaitUninterruptibly();// 等待连接创建完成
-							session = future.getSession();// 获得session
-							UUID uuid_ = UUID.randomUUID();
-							session.write("1010000000"+hql+"\001"+uuid_.toString());// 发送消息
-							
-						} catch (Exception ex) {
-							log.error("客户端链接异常...", ex);
-						}
-
-						session.getCloseFuture().awaitUninterruptibly();// 等待连接断开
+					
 						
-						connector.dispose();
+						ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext-jms.xml");
+						JmsTemplate template = (JmsTemplate) applicationContext.getBean("jmsTemplate");
+				        Destination destination = (Destination) applicationContext.getBean("destination_DataMessageCore");
+				        final Destination destination_reply = (Destination) applicationContext.getBean("destination_ReturnMessageCore");
+				        
+				        
+				        int returncode=-1;
+				        returncode=runHql(template, destination, destination_reply, messageCorrelationID,hql);
+				        if(returncode<0)
+				        {
+				        	//上一步執行失敗
+				        	System.out.println("runHql 執行失敗！");
+				        	return;
+				        }
+				        returncode=createFile(template, destination, destination_reply, messageCorrelationID);
+				        if(returncode<0)
+				        {
+				        	//上一步執行失敗
+				        	System.out.println("CreateFile 執行失敗！");
+				        	return;
+				        }
+						
+						
+						
 						
 						optionPlants_.getDisplay().asyncExec(new Runnable(){
 
@@ -661,5 +659,194 @@ public class DataFlowArea extends Composite {
             mathstr[ 1 ]  =  vy;
         }
          return  mathstr;
-    } 
+    }
+	 private  int createFile(JmsTemplate template,
+				Destination destination, final Destination destination_reply,
+				final String messageCorrelationID) {
+			// TODO Auto-generated method stub
+			 int returncode=-1;
+			 
+			 template.send(destination, new MessageCreator() {
+		            public Message createMessage(Session session) throws JMSException {
+		            	
+		            	Message message =session.createTextMessage(messageCorrelationID);
+		            	message.setJMSReplyTo(destination_reply);
+		            	message.setJMSCorrelationID(messageCorrelationID);
+		            	message.setStringProperty("MessageType", "Create_File");
+		            	optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+							@Override
+							public void run() {
+								// TODO Auto-generated method stub
+								
+									optionPlants_.getTextConsole().setText(optionPlants_.getTextConsole().getText()+"\n<<<<<<<<<<<开始生成EXCEL2007数据文件");
+									optionPlants_.getTextConsole().setSelection(optionPlants_.getTextConsole().getCharCount()); 
+				
+								
+							}
+
+						
+						});	
+		            	
+		            	
+		                return message;
+		            }
+		        });
+		        System.out.println("成功发送了一条JMS消息");
+		        boolean status=true;
+		       
+		        while(status)
+		        {
+		        	final TextMessage a=(TextMessage)template.receiveSelected(destination_reply, "JMSCorrelationID='" + messageCorrelationID + "'");
+		        	try {
+						
+						if(a.getIntProperty("EOF")>=0)
+			        	{
+							final String content="";
+			        		status=false;
+			        		returncode=a.getIntProperty("EOF");
+			        		
+			        		if(a.getIntProperty("EOF")==0)
+			        		{
+			        			
+			        			optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+			    					@Override
+			    					public void run() {
+			    						// TODO Auto-generated method stub
+			    						
+			    							optionPlants_.getTextConsole().setText(optionPlants_.getTextConsole().getText()+"\n<<<<<<<<<<<<<<<<EXCEL2007数据文件生成成功！");
+			    							optionPlants_.getTextConsole().setSelection(optionPlants_.getTextConsole().getCharCount()); 
+			    						
+			    						
+			    					}
+			    				});
+			        			
+			        			rightcomp_.getDisplay().asyncExec(new Runnable(){
+									@Override
+									public void run() {
+										// TODO Auto-generated method stub
+										rightcomp_.getBrowser().setText("<a href=\"http://10.71.84.233:8080/"+messageCorrelationID+".xlsx\">excel数据文件下载</a> <br><a href=\"http://10.71.84.233:8080/"+messageCorrelationID+"\">csv数据文件下载</a>");
+										
+									}
+									});
+			        			
+			        		}
+			        		else
+			        		{
+			        			
+			        			optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+			    					@Override
+			    					public void run() {
+			    						// TODO Auto-generated method stub
+			    						
+			    							optionPlants_.getTextConsole().setText(optionPlants_.getTextConsole().getText()+"\nXXXXXX EXCEL2007数据文件生成失败！");
+			    							optionPlants_.getTextConsole().setSelection(optionPlants_.getTextConsole().getCharCount()); 
+			    						
+			    						
+			    					}
+			    				});	
+			        		}
+			        		
+			        		
+			        		
+			        		
+			        	}
+					} catch (JMSException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		        	
+		        	optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+						@Override
+						public void run() {
+							// TODO Auto-generated method stub
+							try {
+								optionPlants_.getTextConsole().setText(optionPlants_.getTextConsole().getText()+"\n"+a.getText());
+								optionPlants_.getTextConsole().setSelection(optionPlants_.getTextConsole().getCharCount()); 
+							} catch (JMSException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							
+						}
+
+					
+					});	
+		        	
+		        }
+		        return returncode;
+			 
+			 
+			
+		}
+
+		private  int runHql(JmsTemplate template, Destination destination,
+				final Destination destination_reply,
+				final String messageCorrelationID,final String hqlStr) {
+			template.send(destination, new MessageCreator() {
+	            public Message createMessage(Session session) throws JMSException {
+	            	
+	            	Message message =session.createTextMessage("1010000000"+hqlStr+"\001"+messageCorrelationID);
+	            	message.setJMSReplyTo(destination_reply);
+	            	message.setJMSCorrelationID(messageCorrelationID);
+	            	message.setStringProperty("MessageType", "HIVE_CMD");
+	            	
+	            	optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+						@Override
+						public void run() {
+							// TODO Auto-generated method stub
+							optionPlants_.getTextConsole().setText(optionPlants_.getTextConsole().getText()+"\n<<<<<<<<<发送sql语句");
+							optionPlants_.getTextConsole().setSelection(optionPlants_.getTextConsole().getCharCount()); 
+						}
+
+					
+					});	
+	            	
+	                return message;
+	            }
+	        });
+	        System.out.println("成功发送了一条JMS消息");
+	        boolean status=true;
+	        int returncode=-1;
+	        while(status)
+	        {
+	        	final TextMessage a=(TextMessage)template.receiveSelected(destination_reply, "JMSCorrelationID='" + messageCorrelationID + "'");
+	        	try {
+					if(a.getIntProperty("EOF")>=0)
+		        	{
+		        		status=false;
+		        		returncode=a.getIntProperty("EOF");
+		        	}
+				} catch (JMSException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	        	optionPlants_.getDisplay().asyncExec(new Runnable(){
+
+					@Override
+					public void run() {
+						// TODO Auto-generated method stub
+						try {
+							optionPlants_.getTextConsole().setText(optionPlants_.getTextConsole().getText()+"\n"+a.getText());
+							optionPlants_.getTextConsole().setSelection(optionPlants_.getTextConsole().getCharCount()); 
+						} catch (JMSException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						
+					}
+
+				
+				});	
+	        	
+	        	
+	        	
+	        	
+	        }
+	        return returncode;
+		}
 }

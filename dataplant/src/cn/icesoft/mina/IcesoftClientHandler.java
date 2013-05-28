@@ -144,9 +144,8 @@ public class IcesoftClientHandler extends IoHandlerAdapter {
 							@Override
 							public void run() {
 								// TODO Auto-generated method stub
-								rightomp.getBrowser().setText("<a href=\"http://10.71.84.233:8080/"+tmp[0]+".xls\">excel数据文件下载</a> <br><a href=\"http://10.71.84.233:8080/"+tmp[0]+"\">csv数据文件下载</a>");
+								rightomp.getBrowser().setText("<a href=\"http://10.71.84.233:8080/"+tmp[0]+".xlsx\">excel数据文件下载</a> <br><a href=\"http://10.71.84.233:8080/"+tmp[0]+"\">csv数据文件下载</a>");
 								
-								log.debug("excel:"+"<a href=\"http://10.21.52.64:8080/"+tmp[0]+".xls\">excel</a>");
 							}
 							});
 							optionPlants_.getDisplay().asyncExec(new Runnable(){
