@@ -22,7 +22,7 @@ import com.fengmanfei.util.ImageFactory;
 
 public class RcpRun {
 	
-	private static int BUFFER_SIZE = 8096; //锟斤拷锟斤拷锟斤拷锟叫�
+	private static int BUFFER_SIZE = 8096; // 
 	private static long sizeForJar=0;
 	private static long targetSize=21229179;
 	protected Shell shell;
@@ -163,6 +163,8 @@ public class RcpRun {
 			propUpdateTmp.load(fisTmp);//
 			fisTmp.close();//
 			String versionNew=propUpdateTmp.getProperty("version");
+			targetSize=Long.parseLong(propUpdateTmp.getProperty("filesize")); 
+			
 			
 			if(versionNew.equals(version))
 			{
